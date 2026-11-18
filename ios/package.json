@@ -1,8 +1,8 @@
 {
-  "name": "walk-nyc-ios",
+  "name": "walk-chicago-ios",
   "private": true,
   "version": "0.1.0",
-  "description": "Capacitor iOS wrapper for Walk NYC (loads https://walk-nyc.pages.dev)",
+  "description": "Capacitor iOS wrapper for Walk Chicago (loads https://walk-chicago.pages.dev)",
   "scripts": {
     "sync-web": "rm -rf www && cp -R ../hosting/cloudflare/public www",
     "sync": "npm run sync-web && npx cap sync ios",

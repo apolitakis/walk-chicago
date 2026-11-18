@@ -6,15 +6,15 @@
 <meta name="theme-color" content="#000000">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black">
-<meta name="apple-mobile-web-app-title" content="Walk NYC">
-<title>Walk NYC — Audio Walking Tours</title>
+<meta name="apple-mobile-web-app-title" content="Walk Chicago">
+<title>Walk Chicago — Audio Walking Tours</title>
 <link rel="manifest" href="manifest.webmanifest">
 <link rel="icon" href="icon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="icon-180.png">
 <style>
 :root{
   --bg:#0d0d0e; --card:#18181a; --card2:#202023; --line:#2c2c30;
-  --fg:#f4f4f2; --muted:#9b9ba1; --accent:#FCCC0A; --ok:#6CBE45;
+  --fg:#f4f4f2; --muted:#9b9ba1; --accent:#41B6E6; --ok:#6CBE45;
   --font:"Helvetica Neue",Helvetica,Arial,system-ui,sans-serif;
   --safe-b:env(safe-area-inset-bottom,0px); --safe-t:env(safe-area-inset-top,0px);
   --text-size:17px;
@@ -26,7 +26,7 @@ button{font:inherit;color:inherit;background:none;border:0;padding:0;cursor:poin
 a{color:inherit}
 .hidden{display:none!important}
 
-/* Subway-sign header */
+/* Header (black, like a CTA station sign) */
 header.top{position:sticky;top:0;z-index:20;background:#000;padding:calc(10px + var(--safe-t)) 16px 10px;border-bottom:3px solid #fff;display:flex;align-items:center;gap:12px}
 header.top h1{font-size:22px;font-weight:700;letter-spacing:-.3px;margin:0;flex:1;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 header.top .sub{font-size:12px;color:var(--muted);font-weight:400;display:block;letter-spacing:.2px}
@@ -164,7 +164,7 @@ h2.tgrp{display:flex;align-items:center;gap:10px;text-transform:none;letter-spac
 <body>
 <header class="top" id="hdr">
   <button class="iconbtn hidden" id="backBtn" aria-label="Back"><svg viewBox="0 0 24 24"><path d="M15 18l-6-6 6-6"/></svg></button>
-  <h1 id="hdrTitle">Walk NYC<span class="sub">Audio walking tours of Manhattan &amp; Brooklyn</span></h1>
+  <h1 id="hdrTitle">Walk Chicago<span class="sub">Audio walking tours of Chicago</span></h1>
   <button class="iconbtn" id="noteBtn" aria-label="Write a note"><svg viewBox="0 0 24 24"><path d="M12 20h9"/><path d="M16.5 3.5a2.1 2.1 0 0 1 3 3L7 19l-4 1 1-4z"/></svg></button>
   <button class="iconbtn" id="setBtn" aria-label="Settings"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.7 1.7 0 0 0 .3 1.8l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.7 1.7 0 0 0-1.8-.3 1.7 1.7 0 0 0-1 1.5V21a2 2 0 1 1-4 0v-.1a1.7 1.7 0 0 0-1.1-1.5 1.7 1.7 0 0 0-1.8.3l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1a1.7 1.7 0 0 0 .3-1.8 1.7 1.7 0 0 0-1.5-1H3a2 2 0 1 1 0-4h.1a1.7 1.7 0 0 0 1.5-1.1 1.7 1.7 0 0 0-.3-1.8l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1a1.7 1.7 0 0 0 1.8.3H9a1.7 1.7 0 0 0 1-1.5V3a2 2 0 1 1 4 0v.1a1.7 1.7 0 0 0 1 1.5 1.7 1.7 0 0 0 1.8-.3l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1a1.7 1.7 0 0 0-.3 1.8V9a1.7 1.7 0 0 0 1.5 1H21a2 2 0 1 1 0 4h-.1a1.7 1.7 0 0 0-1.5 1z"/></svg></button>
 </header>
@@ -252,8 +252,9 @@ h2.tgrp{display:flex;align-items:center;gap:10px;text-transform:none;letter-spac
 <script>
 "use strict";
 /* ---------- constants & state ---------- */
-const COLORS=["#EE352E","#00933C","#B933AD","#0039A6","#FF6319","#FCCC0A","#6CBE45","#996633","#00ADD0","#A7A9AC","#D82233","#0078C6"];
-const DARK_TEXT=new Set(["#FCCC0A","#6CBE45","#A7A9AC","#00ADD0"]);
+// Tour badges use the CTA 'L' line colors (Red, Blue, Brown, Green, Orange, Purple, Pink, Yellow) and the Loop gray.
+const COLORS=["#C60C30","#00A1DE","#62361B","#009B3A","#F9461C","#522398","#E27EA6","#F9E300","#565A5C"];
+const DARK_TEXT=new Set(["#00A1DE","#E27EA6","#F9E300"]);
 const WPM=165;
 const synth=window.speechSynthesis;
 const S={
@@ -275,7 +276,7 @@ const LENSES=[
   {id:"underfoot",label:"Under your feet",desc:"Buried streams, old shorelines, tunnels, pipes and trains."},
   {id:"names",label:"Names",desc:"Where the street and place names come from."},
   {id:"food",label:"Food & drink",desc:"Dishes, markets and bars, and the people who brought them."},
-  {id:"politics",label:"Power & politics",desc:"Tammany, the mob, reformers, riots, and fights over who the city is for."},
+  {id:"politics",label:"Power & politics",desc:"The Machine, the mob, reformers, riots, and fights over who the city is for."},
   {id:"culture",label:"Arts & pop culture",desc:"Music, art, theater, books, film and TV tied to each spot."},
   {id:"legends",label:"Legends, checked",desc:"Popular stories, compared with the record."}
 ];
@@ -285,8 +286,8 @@ const $=id=>document.getElementById(id);
 const esc=s=>String(s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 
 /* ---------- storage ---------- */
-function load(){try{const d=JSON.parse(localStorage.getItem("walknyc")||"{}");Object.assign(S.settings,d.settings||{});S.played=d.played||{};S.resume=d.resume||{};}catch(e){}}
-function save(){try{localStorage.setItem("walknyc",JSON.stringify({settings:S.settings,played:S.played,resume:S.resume}));}catch(e){}}
+function load(){try{const d=JSON.parse(localStorage.getItem("walkchi")||"{}");Object.assign(S.settings,d.settings||{});S.played=d.played||{};S.resume=d.resume||{};}catch(e){}}
+function save(){try{localStorage.setItem("walkchi",JSON.stringify({settings:S.settings,played:S.played,resume:S.resume}));}catch(e){}}
 
 /* ---------- text processing ---------- */
 const ABBR=/^(St|Mr|Mrs|Dr|Mt|Ft|vs|Co|No)\.$/;
@@ -300,10 +301,19 @@ function splitSentences(par){
   const rest=par.slice(start).trim();if(rest)out.push(rest);return out;
 }
 const SPEAK_FIX=[
-  [/\bSt\. (?=[A-Z])/g,"Saint "],[/\bAT&T\b/g,"A T and T"],[/\bA&P\b/g,"A and P"],[/&/g," and "],
-  [/\b(East |West )?Houston Street/g,(m,p)=>(p||"")+"Howston Street"],[/Haughwout/g,"Howut"],
-  [/Spuyten Duyvil/g,"Spy-ten Dyvil"],[/Loisaida/g,"Lo-ee-sigh-da"],[/Nuyorican/g,"New-yo-rican"],
-  [/\bBC\b/g,"B.C."],[/\bTKTS\b/g,"T K T S"],[/\bBNY\b/g,"B N Y"],[/\bCBGB\b/g,"C B G B"]
+  [/\bSt\. (?=[A-Z])/g,"Saint "],[/\bAT&T\b/g,"A T and T"],[/&/g," and "],
+  // Chicago names voices get wrong, respelled for the ear. Keep in step with voices/common.py.
+  [/\bMies\b/g,"Meese"],[/\bvan der Rohe\b/g,"van der Roh-uh"],[/\bJolliet\b/g,"Jo-lee-et"],
+  [/\bMonadnock\b/g,"Muh-nad-nock"],[/\bMiró/g,"Mee-roh"],[/\bPotawatomi\b/g,"Pot-uh-wot-uh-mee"],
+  [/\bCermak\b/g,"Sir-mack"],[/\bPaderewski\b/g,"Pad-eh-ref-skee"],[/\bGehry\b/g,"Gary"],[/\bSeurat\b/g,"Sur-rah"],
+  [/\bGrande Jatte\b/g,"Grahnd Zhaht"],[/\bBueller\b/g,"Byoo-ler"],[/\bVolodymyr\b/g,"Vo-lo-dih-meer"],
+  [/\bRusyn\b/g,"Roo-sin"],[/\bJiménez\b/g,"Hee-meh-nez"],[/\bAlbizu\b/g,"Al-bee-soo"],[/\bjibarito/g,"hee-bah-ree-toe"],
+  [/\bStefanovic\b/g,"Steh-fah-no-vich"],[/\bGiancana\b/g,"Jan-kah-na"],[/\bNetsch\b/g,"Netch"],
+  [/\bJuárez\b/g,"Hwah-rez"],[/Plzeň/g,"Pull-zen"],[/\bMasaryk\b/g,"Mah-sah-rick"],
+  [/\bMinnekirken\b/g,"Minneh-keer-ken"],[/\bJackowo\b/g,"Yats-koh-vo"],[/\bDuSable\b/g,"Doo-Sah-bul"],
+  [/\bLoeb\b/g,"Lobe"],[/\bMamah\b/g,"May-mah"],[/\bTaliesin\b/g,"Tally-essin"],[/\bGoethe Street\b/g,"Go-thee Street"],
+  [/\bDes Plaines\b/g,"Dess Plains"],[/\bPaulina\b/g,"Paw-lie-na"],[/\bBoricua\b/g,"Bo-ree-kwa"],
+  [/\bBorikén/g,"Bo-ree-ken"]
 ];
 function toSpeech(t){for(const [re,rep] of SPEAK_FIX)t=t.replace(re,rep);return t;}
 function words(t){return t.split(/\s+/).length;}
@@ -335,7 +345,7 @@ async function nativeStartWalk(t){
   if(!Geofence)return;
   try{
     const p=await Geofence.requestPermission();
-    if(p&&p.status!=="always")toast("For stops to start with your phone locked, allow location \"Always\" for Walk NYC in Settings.");
+    if(p&&p.status!=="always")toast("For stops to start with your phone locked, allow location \"Always\" for Walk Chicago in Settings.");
     await Geofence.setStops({stops:t.stops.map((s,i)=>({id:key(t.id,i),lat:s.lat,lng:s.lng,radius:Math.max(100,S.settings.radius),title:(i+1)+". "+s.title}))});
   }catch(e){}
 }
@@ -413,6 +423,8 @@ const key=(t,i,d)=>t+":"+i+(d?":"+d:"");
 const sameTr=(a,b)=>a.tourId===b.tourId&&a.idx===b.idx&&(a.d||0)===(b.d||0);
 function chaptersOf(tourId,idx){const t=S.byId[tourId],s=t&&idx>=0&&t.stops[idx];return(s&&s.deeper)||[];}
 const deeperOn=()=>S.settings.deeper!=="hide";
+// Share of stops that have Go deeper chapters (the home screen intro only promises what exists).
+const deepShare=()=>{let n=0,d=0;S.tours.forEach(t=>t.stops.forEach(s=>{n++;if(s.deeper&&s.deeper.length)d++;}));return n?d/n:0;};
 function trackInfo(tourId,idx,d){const t=S.byId[tourId];if(idx<0)return{title:"Overview: "+t.title,ctx:t.title,text:t.overview,t};const s=t.stops[idx];
   if(d){const chs=s.deeper||[],c=chs[d-1];if(c)return{title:c.title,ctx:`Go deeper ${d}/${chs.length} · ${idx+1}. ${s.title}`,text:c.text,t,s,c};}
   return{title:(idx+1)+". "+s.title,ctx:t.title,text:s.text,t,s};}
@@ -457,7 +469,7 @@ AEL.addEventListener("error",()=>{if(S.mode!=="audio"||!S.track)return;const tr=
 const SILENT_WAV="data:audio/wav;base64,UklGRiQAAABXQVZFZm10IBAAAAABAAEAQB8AAIA+AAACABAAZGF0YQAAAAA=";
 function unlockMedia(){if(!S.audioMan||S.playing)return;try{AEL.src=SILENT_WAV;const pr=AEL.play();if(pr)pr.then(()=>AEL.pause()).catch(()=>{});}catch(e){}}
 function setMediaSession(info){if(!("mediaSession" in navigator))return;try{
-  navigator.mediaSession.metadata=new MediaMetadata({title:info.title,artist:info.c?info.ctx:info.t.title,album:info.c?info.t.title:"Walk NYC",artwork:[{src:"icon-512.png",sizes:"512x512",type:"image/png"}]});
+  navigator.mediaSession.metadata=new MediaMetadata({title:info.title,artist:info.c?info.ctx:info.t.title,album:info.c?info.t.title:"Walk Chicago",artwork:[{src:"icon-512.png",sizes:"512x512",type:"image/png"}]});
   const ms=navigator.mediaSession;ms.setActionHandler("play",()=>play());ms.setActionHandler("pause",()=>pause());
   ms.setActionHandler("nexttrack",()=>{const n=S.track&&nextOf(S.track);if(n)playRef(n);});
   ms.setActionHandler("previoustrack",()=>{const p=S.track&&prevOf(S.track);if(p)playRef(p);});
@@ -590,7 +602,7 @@ function renderHome(){
   let total=0;S.tours.forEach(t=>total+=tourWords(t));
   const areas=[...new Set(S.tours.map(t=>t.area))];
   let sorted=S.tours.slice();
-  let html=`<div class="intro">Pick a neighborhood, then either tap stops to listen, or start a walk and let GPS play each stop as you reach it. Every tour has an overview you can listen to on the way there${deeperOn()?", and most stops have extra chapters if you want to go deeper":""}.</div>
+  let html=`<div class="intro">Pick a neighborhood, then either tap stops to listen, or start a walk and let GPS play each stop as you reach it. Every tour has an overview you can listen to on the way there${deeperOn()&&deepShare()?`, and ${deepShare()>=.9?"every stop has":deepShare()>=.5?"most stops have":"some stops have"} extra chapters if you want to go deeper`:""}.</div>
   <div class="locrow"><button class="pill${S.wantNearby?" on":""}" id="nearBtn">📍 ${S.wantNearby?(S.pos?"Sorted by distance":"Finding you…"):"Show what's near me"}</button></div>`;
   for(const a of areas){
     let list=sorted.filter(t=>t.area===a);
@@ -676,7 +688,7 @@ function updateDistances(){
 // t: a tour (bullet + title); label/sub: a plain titled page (topic view); neither: home.
 function setHeader(t,label,sub){
   $("backBtn").classList.toggle("hidden",!t&&!label);
-  $("hdrTitle").innerHTML=t?`<span style="display:flex;align-items:center;gap:10px">${bulletHTML(t,true)}<span style="overflow:hidden;text-overflow:ellipsis">${esc(t.title)}</span></span>`:label?`${esc(label)}<span class="sub">${esc(sub||"")}</span>`:`Walk NYC<span class="sub">Audio walking tours of Manhattan &amp; Brooklyn</span>`;
+  $("hdrTitle").innerHTML=t?`<span style="display:flex;align-items:center;gap:10px">${bulletHTML(t,true)}<span style="overflow:hidden;text-overflow:ellipsis">${esc(t.title)}</span></span>`:label?`${esc(label)}<span class="sub">${esc(sub||"")}</span>`:`Walk Chicago<span class="sub">Audio walking tours of Chicago</span>`;
 }
 $("backBtn").onclick=()=>{location.hash="";};
 
@@ -737,16 +749,16 @@ $("sizeIn").oninput=e=>{S.settings.size=+e.target.value;save();syncSettingsUI();
 $("autoNextIn").onchange=e=>{S.settings.autoNext=e.target.checked;save();};
 $("deepSel").onchange=e=>{S.settings.deeper=e.target.value;save();};
 $("recIn").onchange=e=>{S.settings.recorded=e.target.checked;save();if(S.track){const t=S.track;const was=S.playing;playTrack(t.tourId,t.idx,was,t.d,S.list);}};
-$("testVoice").onclick=()=>{if(S.playing)pause();const u=new SpeechSynthesisUtterance("Welcome to New York. This is how the narration will sound.");u.rate=S.settings.rate;const v=currentVoice();if(v){u.voice=v;u.lang=v.lang;}synth.cancel();synth.speak(u);};
+$("testVoice").onclick=()=>{if(S.playing)pause();const u=new SpeechSynthesisUtterance("Welcome to Chicago. This is how the narration will sound.");u.rate=S.settings.rate;const v=currentVoice();if(v){u.voice=v;u.lang=v.lang;}synth.cancel();synth.speak(u);};
 let resetArmed=false;
 $("resetBtn").onclick=()=>{if(!resetArmed){resetArmed=true;$("resetBtn").textContent="Tap again to confirm reset";setTimeout(()=>{resetArmed=false;$("resetBtn").textContent="Reset listening progress";},4000);return;}
   S.played={};S.resume={};save();resetArmed=false;$("resetBtn").textContent="Progress cleared";};
 
 /* ---------- feedback notes ---------- */
 // Notes go to /api/feedback (a Cloudflare Pages Function). Anything that can't be sent is kept on the phone and retried.
-const APP_VERSION="0.3.2";
-function noteQueue(){try{return JSON.parse(localStorage.getItem("walknyc-notes")||"[]");}catch(e){return [];}}
-function setNoteQueue(q){try{localStorage.setItem("walknyc-notes",JSON.stringify(q));}catch(e){}}
+const APP_VERSION="0.1.0";
+function noteQueue(){try{return JSON.parse(localStorage.getItem("walkchi-notes")||"[]");}catch(e){return [];}}
+function setNoteQueue(q){try{localStorage.setItem("walkchi-notes",JSON.stringify(q));}catch(e){}}
 function noteContext(){
   const tr=S.track||(S.tourId?{tourId:S.tourId,idx:null}:null);const c={app:APP_VERSION,at:new Date().toISOString()};
   if(tr){c.tour=tr.tourId;if(tr.idx!=null){c.stop=tr.idx;const ti=trackInfo(tr.tourId,tr.idx,tr.d);if(ti.c){c.stopTitle=(tr.idx+1)+". "+ti.s.title;c.deeper=tr.d;c.chapterTitle=ti.c.title;}else c.stopTitle=ti.title;}if(S.track&&S.chunks[S.ci])c.sentence=S.chunks[S.ci].text;}

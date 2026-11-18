@@ -13,7 +13,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             try AVAudioSession.sharedInstance().setCategory(.playback, mode: .spokenAudio, options: [])
             try AVAudioSession.sharedInstance().setActive(true)
         } catch {
-            print("Walk NYC: audio session setup failed: \(error)")
+            print("Walk Chicago: audio session setup failed: \(error)")
         }
         return true
     }

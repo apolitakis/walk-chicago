@@ -1,14 +1,14 @@
-# Cloudflare Pages project for Walk NYC. Deploy (only when Alex says "ship"):
-#   cd hosting/cloudflare && npx wrangler pages deploy public --project-name walk-nyc --branch main
-# One-time setup is in SHIPPING.md (create the KV namespace and R2 bucket, put the KV id below, set FEEDBACK_KEY).
-name = "walk-nyc"
+# Cloudflare Pages project for Walk Chicago. Deploy (only when Alex says "ship"):
+#   cd hosting/cloudflare && npx wrangler pages deploy public --project-name walk-chicago --branch main
+# One-time setup is done (2026-11-18): project walk-chicago, KV namespace walk-chicago-feedback, R2 bucket walk-chicago-audio, secret FEEDBACK_KEY.
+name = "walk-chicago"
 pages_build_output_dir = "public"
 compatibility_date = "2026-11-01"
 
 [[kv_namespaces]]
 binding = "FEEDBACK"
-id = "003213e7c17444ba9ec3cdc0fc19418e"
+id = "b27b2c91d739401da8d7f750f06c5aa2"
 
 [[r2_buckets]]
 binding = "AUDIO"
-bucket_name = "walk-nyc-audio"
+bucket_name = "walk-chicago-audio"

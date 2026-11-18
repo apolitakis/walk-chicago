@@ -1,9 +1,9 @@
 {
-  "appId": "com.apolitakis.walknyc",
-  "appName": "Walk NYC",
+  "appId": "com.apolitakis.walkchicago",
+  "appName": "Walk Chicago",
   "webDir": "www",
   "server": {
-    "url": "https://walk-nyc.pages.dev",
+    "url": "https://walk-chicago.pages.dev",
     "cleartext": false
   },
   "ios": {

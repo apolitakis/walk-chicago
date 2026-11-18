@@ -1,4 +1,4 @@
-"""Render Walk NYC narration with Kokoro-82M (open-weights neural TTS, Apache-2.0).
+"""Render Walk Chicago narration with Kokoro-82M (open-weights neural TTS, Apache-2.0).
 
   pip install "kokoro>=0.9" soundfile        (plus: sudo apt install espeak-ng ffmpeg)
   python3 render_kokoro.py --sample          # one ~75 s passage in 8 voices -> samples/

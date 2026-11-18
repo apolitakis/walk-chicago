@@ -11,7 +11,7 @@ Everything else (tours, player, transcript, feedback notes) stays in the web lay
 ## Architecture
 
 - **Capacitor** (current major version) with the iOS platform. Use Swift Package Manager rather than CocoaPods if the Capacitor version supports it.
-- **Live web layer:** set `server.url` in `capacitor.config` to `https://walk-nyc.pages.dev`, so every Cloudflare ship updates the app without an Xcode rebuild. Also bundle a copy of `public/` as `webDir` for reference. Fine for a personal, sideloaded app (App Store review would object). If offline launch turns out to matter, revisit: bundle the web layer and fetch `tours.json` and audio remotely.
+- **Live web layer:** set `server.url` in `capacitor.config` to `https://walk-chicago.pages.dev`, so every Cloudflare ship updates the app without an Xcode rebuild. Also bundle a copy of `public/` as `webDir` for reference. Fine for a personal, sideloaded app (App Store review would object). If offline launch turns out to matter, revisit: bundle the web layer and fetch `tours.json` and audio remotely.
 - **Feature detection** in `index.html`: `const NATIVE = window.Capacitor?.isNativePlatform?.()`. Web behavior stays the default; native paths only light up when `NATIVE`.
 
 ## Native work
@@ -22,7 +22,7 @@ Community plugins exist, but a ~150-line custom plugin around `CLLocationManager
 
 ```
 Geofence.requestPermission()                       -> {status}  // ask When-In-Use first, then Always
-Geofence.setStops([{id:"fidi:3", lat, lng, radius}]) // replaces monitored regions
+Geofence.setStops([{id:"loop:3", lat, lng, radius}]) // replaces monitored regions
 Geofence.clear()
 event "enter" {id, timestamp}
 ```
@@ -45,19 +45,19 @@ When a region fires, iOS wakes the app in the background for about 10 seconds; t
 
 ### 4. Info.plist
 
-- `NSLocationWhenInUseUsageDescription`, `NSLocationAlwaysAndWhenInUseUsageDescription`: "Walk NYC starts each stop's narration when you arrive, even with your phone in your pocket."
+- `NSLocationWhenInUseUsageDescription`, `NSLocationAlwaysAndWhenInUseUsageDescription`: "Walk Chicago starts each stop's narration when you arrive, even with your phone in your pocket."
 - `UIBackgroundModes`: `audio` (`location` removed 2026-11-18, see NOTES.md).
-- If the service worker should run inside WKWebView, add `WKAppBoundDomains` with `walk-nyc.pages.dev`. Optional: the app works without the service worker.
+- If the service worker should run inside WKWebView, add `WKAppBoundDomains` with `walk-chicago.pages.dev`. Optional: the app works without the service worker.
 
 ## Install on Alex's iPhone
 
-- Xcode → Settings → Accounts → add Alex's Apple ID. In the target's Signing, pick that "Personal Team" and a unique bundle id (e.g. `com.apolitakis.walknyc`).
+- Xcode → Settings → Accounts → add Alex's Apple ID. In the target's Signing, pick that "Personal Team" and a unique bundle id (e.g. `com.apolitakis.walkchicago`).
 - Turn on Developer Mode on the iPhone (Settings → Privacy & Security), plug it in, select it as the run destination, and Run.
 - With a free account the install lasts **7 days** (rebuild and Run again to renew). The paid Apple Developer Program ($99/yr) makes it last a year and enables TestFlight.
 
 ## Test plan (outdoors)
 
-1. Start walk mode on a tour near home (FiDi: Bowling Green and Stone Street are ~300 m apart), lock the phone, and walk between stops. The arrival notification or audio should fire within ~50–150 m.
+1. Start walk mode on a tour near home (the Loop: the Rookery and the Marquette Building are about 190 m apart; Willis Tower and the Board of Trade about 330 m), lock the phone, and walk between stops. The arrival notification or audio should fire within ~50–150 m.
 2. Lock-screen controls pause, resume and skip the recorded audio.
 3. Write a note mid-walk; confirm it shows up via `GET /api/feedback`.
 4. Ship a trivial web change; reopen the app and confirm it picked it up without a rebuild.
