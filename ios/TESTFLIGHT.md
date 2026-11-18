@@ -23,10 +23,10 @@ Because the app loads `https://walk-chicago.pages.dev`, **content and web fixes 
 
 ## One-time setup (Alex)
 
-Steps 1 to 3 are shared with Walk NYC: one Apple Developer membership and one Team ID cover both apps. If they're done for NYC, start at step 4.
+Steps 1 to 3 are shared with Walk NYC: one Apple Developer membership and one Team ID cover both apps. Steps 1 and 2 are done: the membership was activated on 2026-11-18, and the Team ID is `944T7QKN25`, already set in the Xcode project and in `scripts/testflight.sh`.
 
-1. **Join the Apple Developer Program** ($99/year) at https://developer.apple.com/programs/enroll/ with your Apple ID, as an individual. Approval is usually quick but can take up to 48 hours.
-2. **Find your Team ID**: https://developer.apple.com/account → Membership details → Team ID (10 characters).
+1. ~~**Join the Apple Developer Program**~~ Done 2026-11-18 (individual membership, $99 a year, shared with Walk NYC).
+2. ~~**Find your Team ID**~~ Done: `944T7QKN25`.
 3. **Xcode → Settings → Accounts**: make sure your Apple ID is there and the new paid team (your name, not "Personal Team") shows up.
 4. **Register the bundle id**: https://developer.apple.com/account/resources/identifiers → **+** → App IDs → App → Description "Walk Chicago", Explicit bundle id `com.apolitakis.walkchicago`. No extra capabilities are needed. (If Apple says the id isn't available, for example because the free Personal Team holds it, ask a thread to switch the app to `com.apolitakis.walkchicago.app` and use that here and in step 5.)
 5. **Create the app in App Store Connect**: https://appstoreconnect.apple.com/apps → **+** → New App.
@@ -39,12 +39,12 @@ Steps 1 to 3 are shared with Walk NYC: one Apple Developer membership and one Te
 ```bash
 cd ~/Documents/walk-chicago && git pull     # first time: git clone https://github.com/apolitakis/walk-chicago ~/Documents/walk-chicago
 cd ios
-TEAM_ID=ABCDE12345 ./scripts/testflight.sh
+./scripts/testflight.sh
 ```
 
 The script syncs the web layer, archives a Release build signed by your team (Xcode creates the distribution certificate and profile the first time), and uploads it. The build shows up in App Store Connect → your app → TestFlight after 5 to 30 minutes of processing. Apple emails you when it's ready.
 
-From Xcode instead: open `native/App/App.xcodeproj`, App target → Signing & Capabilities → Team = your paid team, bump **Build** under General, pick "Any iOS Device (arm64)", then Product → Archive → Distribute App → TestFlight & App Store.
+From Xcode instead: open `native/App/App.xcodeproj`, App target → Signing & Capabilities → check that Team is your paid team (Team ID 944T7QKN25, already set in the project), bump **Build** under General, pick "Any iOS Device (arm64)", then Product → Archive → Distribute App → TestFlight & App Store.
 
 ## Testing yourself first (no review)
 

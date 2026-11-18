@@ -2,9 +2,10 @@
 # Archive the iOS app and upload it to App Store Connect, where it shows up in TestFlight.
 #
 #   cd ios
-#   TEAM_ID=ABCDE12345 ./scripts/testflight.sh
+#   ./scripts/testflight.sh
 #
-# TEAM_ID is the 10-character Team ID from developer.apple.com/account (Membership details).
+# TEAM_ID defaults to Alex's Apple Developer Team ID (944T7QKN25, the same team as Walk NYC).
+# Set TEAM_ID=... to sign with a different team.
 # Needs: Xcode signed in to that Apple ID (Xcode > Settings > Accounts), and the app record
 # already created in App Store Connect with the same bundle id.
 #
@@ -14,7 +15,7 @@
 set -euo pipefail
 cd "$(dirname "$0")/.."
 
-: "${TEAM_ID:?Set TEAM_ID to your Apple Developer Team ID, e.g. TEAM_ID=ABCDE12345 ./scripts/testflight.sh}"
+TEAM_ID="${TEAM_ID:-944T7QKN25}"
 BUILD="${BUILD_NUMBER:-$(date -u +%Y%m%d.%H%M)}"
 OUT="native/App/build/testflight"
 

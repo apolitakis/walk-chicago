@@ -8,6 +8,7 @@ This app is a copy of Walk NYC's iOS wrapper (walk-nyc `main` at 772269a, with t
 - Bundle id `com.apolitakis.walkchicago`, display name "Walk Chicago", `server.url` `https://walk-chicago.pages.dev`.
 - New icon and launch image (walker on a light blue circle with a red six-pointed star), made from `hosting/cloudflare/public/icon.svg`.
 - Geofence plugin identifiers renamed (`WalkChicagoStops`, `walkchicago.geofence.titles`, `walkchicagoStop`).
+- Signing: Alex's Apple Developer membership is active, Team ID `944T7QKN25` (same team as Walk NYC). It's set as `DEVELOPMENT_TEAM` for both App target configurations and is the default `TEAM_ID` in `scripts/testflight.sh`, so a build is just `./scripts/testflight.sh`.
 - Before the first Chicago build, check walk-nyc's `ios/NOTES.md` for anything learned on NYC's first TestFlight build and outdoor geofence test after 2026-11-18, and copy the fixes over.
 
 ## 2026-11-18: TestFlight prep (not yet built on the Mac)
