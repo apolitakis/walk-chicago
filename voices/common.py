@@ -36,6 +36,13 @@ SPEAK_FIX = [
     (r"\bDamen\b", "Dam-en"), (r"\bBochco\b", "Botch-ko"), (r"\bEsterhaus\b", "Ester-house"), (r"\bCanzoneri\b", "Kan-zo-nair-ee"), (r"\bBuscher\b", "Boo-sher"),
     (r"\bToussaint\b", "Too-sahn"), (r"\bMenard\b", "Meh-nard"), (r"\bPasquale\b", "Pahs-kwah-lee"), (r"\bgiardiniera\b", "jar-dih-nair-ah"), (r"\bGautreaux\b", "Go-troh"),
     (r"\bAndrzej\b", "Ahn-jay"), (r"\bDajnowski\b", "Dye-noff-skee"), (r"\bStroger\b", "Stroh-gur"), (r"\bReichel\b", "Rye-kel"), (r"\bKraig\b", "Craig"), (r"\bchampurrado\b", "cham-poo-rah-doh"),
+    (r"\bZdrůbek\b", "Zdroo-bek"), (r"\bGeringer\b", "Geh-ring-er"), (r"\bGarrigue\b", "Gah-reeg"), (r"\bTomáš", "Toh-mahsh"), (r"\bNárod\b", "Nah-rod"), (r"\bVojtěch\b", "Voy-tyekh"), (r"\bBolesław\b", "Bo-leh-swahf"),
+    (r"\bGniezno\b", "Gnyez-no"), (r"\bHouby\b", "Hoe-bee"), (r"\bPietà", "Pee-ay-tah"), (r"\bRamírez\b", "Rah-mee-res"), (r"\bVázquez\b", "Vahs-kes"), (r"\bFroebel\b", "Fro-bel"), (r"\bChuy\b", "Choo-ee"),
+    (r"\bJesús\b", "Heh-soos"), (r"\bMaiotis\b", "My-oh-tis"), (r"\bOaxaca\b", "Wah-hah-kah"), (r"\bCiudad\b", "See-oo-dahd"), (r"\bPuebla\b", "Pweb-lah"), (r"\bVasconcelos\b", "Vahs-kon-seh-lohs"), (r"\bOrozco\b", "Oh-rohs-koh"),
+    (r"\bSiqueiros\b", "See-kay-rohs"), (r"\bPatlán\b", "Paht-lahn"), (r"\bRaya\b", "Rah-yah"), (r"\bAztlán\b", "Ahst-lahn"), (r"\bTepeyac\b", "Teh-peh-yahk"), (r"\bNahuatl\b", "Nah-wah-tul"), (r"\bcempasúchil\b", "sem-pah-soo-cheel"),
+    (r"\bmuerto\b", "mwair-toh"), (r"\borejas\b", "oh-reh-hahs"), (r"\bcuernos\b", "kwair-nohs"), (r"\bmarranitos\b", "mah-rah-nee-tohs"), (r"\bpiloncillo\b", "pee-lon-see-yo"), (r"\breyes\b", "ray-ess"), (r"\bCarbajal\b", "Kar-bah-hahl"),
+    (r"\bInocencio\b", "Ee-no-sen-syo"), (r"\bUruapan\b", "Oo-roo-ah-pahn"), (r"\bMichoacán\b", "Mee-cho-ah-kahn"), (r"\bpaletería\b", "pah-leh-teh-ree-ah"), (r"\bpaletas\b", "pah-leh-tahs"), (r"\bMuskegon\b", "Muss-kee-gun"), (r"\bMenominee\b", "Meh-nom-ih-nee"),
+    (r"\bSchenectady\b", "Skuh-nek-tuh-dee"),
 ]
 
 def to_speech(t):
