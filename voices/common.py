@@ -33,6 +33,9 @@ SPEAK_FIX = [
     (r"\bMi Tocaya\b", "Mee Toh-kai-yah"), (r"\bantojos\b", "ahn-toh-hohs"), (r"\bDávila\b", "Dah-vee-lah"),
     (r"\bSpies\b", "Speez"), (r"\bNeebe\b", "Nee-bee"), (r"\bMacSwiney\b", "Mac-Swee-nee"), (r"\bPeloponnese\b", "Pel-o-po-neez"),
     (r"\bApostolou\b", "Ah-po-stoh-loo"), (r"\bBrach\b", "Brock"), (r"\bSchnering\b", "Shner-ing"), (r"\bWeinert\b", "Wine-ert"), (r"\bGelert\b", "Geh-lert"),
+    (r"\bDamen\b", "Dam-en"), (r"\bBochco\b", "Botch-ko"), (r"\bEsterhaus\b", "Ester-house"), (r"\bCanzoneri\b", "Kan-zo-nair-ee"), (r"\bBuscher\b", "Boo-sher"),
+    (r"\bToussaint\b", "Too-sahn"), (r"\bMenard\b", "Meh-nard"), (r"\bPasquale\b", "Pahs-kwah-lee"), (r"\bgiardiniera\b", "jar-dih-nair-ah"), (r"\bGautreaux\b", "Go-troh"),
+    (r"\bAndrzej\b", "Ahn-jay"), (r"\bDajnowski\b", "Dye-noff-skee"), (r"\bStroger\b", "Stroh-gur"), (r"\bReichel\b", "Rye-kel"), (r"\bKraig\b", "Craig"), (r"\bchampurrado\b", "cham-poo-rah-doh"),
 ]
 
 def to_speech(t):
