@@ -3,7 +3,7 @@ import Capacitor
 import CoreLocation
 import UserNotifications
 
-/// Walk NYC geofencing: monitors the active tour's stops so arrivals fire with the phone
+/// Walk Chicago geofencing: monitors the active tour's stops so arrivals fire with the phone
 /// locked or in a pocket.
 ///
 /// JS API (window.Capacitor.Plugins.Geofence):
@@ -31,8 +31,8 @@ public class GeofencePlugin: CAPPlugin, CAPBridgedPlugin, CLLocationManagerDeleg
 
     static let minRadius: CLLocationDistance = 100   // geofences are unreliable below ~100 m
     static let maxRegions = 20                       // iOS per-app limit
-    static let monitorName = "WalkNYCStops"
-    static let titlesKey = "walknyc.geofence.titles"
+    static let monitorName = "WalkChicagoStops"
+    static let titlesKey = "walkchicago.geofence.titles"
 
     private var manager: CLLocationManager!
     private var monitor: CLMonitor?
@@ -169,13 +169,13 @@ public class GeofencePlugin: CAPPlugin, CAPBridgedPlugin, CLLocationManagerDeleg
         content.title = "Arrived: " + (titles[id] ?? "next stop")
         content.body = "Tap to play"
         content.sound = .default
-        content.userInfo = ["walknycStop": id]
+        content.userInfo = ["walkchicagoStop": id]
         UNUserNotificationCenter.current().add(UNNotificationRequest(identifier: "arrive-" + id, content: content, trigger: nil))
     }
 
     public func userNotificationCenter(_ center: UNUserNotificationCenter, didReceive response: UNNotificationResponse,
                                        withCompletionHandler completionHandler: @escaping () -> Void) {
-        if let id = response.notification.request.content.userInfo["walknycStop"] as? String {
+        if let id = response.notification.request.content.userInfo["walkchicagoStop"] as? String {
             // retainUntilConsumed: on a cold launch the WebView may not have added its listener yet.
             notifyListeners("enter", data: ["id": id, "timestamp": Date().timeIntervalSince1970 * 1000, "tapped": true],
                             retainUntilConsumed: true)

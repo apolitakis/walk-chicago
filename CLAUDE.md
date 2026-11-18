@@ -1,45 +1,46 @@
-# Walk NYC — notes for Claude
+# Walk Chicago — notes for Claude
 
-GPS-triggered audio walking tours of Manhattan and Brooklyn for Alex's phone: 22 tours, 162 stops, ~72k words (~7.5 h recorded), plus optional "Go deeper" chapters per stop (about twice the base narration; being written in Nov 2026). Alex walks with it and leaves feedback notes in the app; threads read the notes and improve the content and code.
+GPS-triggered audio walking tours of Chicago (plus Oak Park) for Alex's phone: 22 tours, 144 stops, ~59.6k words (~6 h), plus optional "Go deeper" chapters per stop (about twice the base narration; being written in Nov 2026). It is the sister app of Walk NYC (`apolitakis/walk-nyc`) and started from its code on 2026-11-18, so the two repos share almost all of their code: a fix to `index.html`, the Pages Functions, `voices/` or `ios/` usually belongs in both.
 
 ## Where things live
 
 | What | Where | Updated when |
 |---|---|---|
-| Source of truth | this repo, `apolitakis/walk-nyc` | every change |
-| Public site (and what the iOS app loads) | Cloudflare Pages project `walk-nyc` → `https://walk-nyc.pages.dev` (from `hosting/cloudflare/`) | **only when Alex says "ship"** |
-| Recorded narration | Cloudflare R2 bucket `walk-nyc-audio`, served at `/audio/*` by `functions/audio/[[path]].js` | after re-rendering audio (see SHIPPING.md) |
-| Feedback notes | Cloudflare KV namespace bound as `FEEDBACK`, written by `functions/api/feedback.js` | live, from the app |
-| Working copy for Alex to try in chat | claude.ai artifact https://claude.ai/artifact/PxCra3Y6bzRypdE6xjtHDA (pinned) | republish after changes; it can't reach /api or /audio, so it uses phone speech and keeps notes on the phone |
-| Audio rendering | Alex's A40 workstation (`alex@192.168.1.196`, `~/lab/walk-nyc-voices`, venv via uv + Python 3.12) | when narration text changes |
-| Legacy | Netlify Drop site peaceful-torte-556209.netlify.app | retire once Cloudflare is live |
+| Source of truth | this repo, `apolitakis/walk-chicago` | every change |
+| Public site (and what the iOS app loads) | Cloudflare Pages project `walk-chicago` → `https://walk-chicago.pages.dev` (from `hosting/cloudflare/`) | **only when Alex says "ship"** |
+| Recorded narration | Cloudflare R2 bucket `walk-chicago-audio`, served at `/audio/*` by `functions/audio/[[path]].js` | after re-rendering audio (see SHIPPING.md) |
+| Feedback notes | Cloudflare KV namespace `walk-chicago-feedback` (id `b27b2c91d739401da8d7f750f06c5aa2`), bound as `FEEDBACK`, written by `functions/api/feedback.js`; read with `scripts/read_feedback.py` | live, from the app |
+| Audio rendering | Alex's A40 workstation (`alex@192.168.1.196`), `~/lab/walk-chicago-voices` (same setup as `~/lab/walk-nyc-voices`) | when narration text changes |
+| iPhone app | `ios/`: Capacitor wrapper, bundle id `com.apolitakis.walkchicago`, TestFlight steps in `ios/TESTFLIGHT.md` | native changes only; web changes arrive with each ship |
 
 ## Layout
 
-- `content/NN-<tour>.txt` — narration source, one file per tour (format below). **Edit text here, never in tours.json.**
+- `content/NN-<tour>.txt` — narration source, one file per tour (format below). **Edit text here, never in tours.json.** Files are numbered in a walking order: Downtown, North Side, West and Northwest Sides, South Side, then Oak Park.
 - `content/deeper/NN-<tour>.txt` — "Go deeper" chapters for that tour's stops, same file name as the tour (format below).
 - `build.py` — `python3 build.py` regenerates `hosting/cloudflare/public/tours.json` and `voices/tracks.json`, checks the deeper files against the tours, and prints word counts.
-- `hosting/cloudflare/public/` — the app: one `index.html` (vanilla JS, no build step), `sw.js` (offline shell; skips /audio and /api), icons, manifest.
+- `hosting/cloudflare/public/` — the app: one `index.html` (vanilla JS, no build step), `sw.js` (offline shell; skips /audio and /api), icons, manifest, `privacy.html`.
 - `hosting/cloudflare/functions/` — Pages Functions: `api/feedback.js`, `audio/[[path]].js` (R2 with HTTP Range support, which Safari needs).
-- `hosting/cloudflare/wrangler.toml` — bindings `FEEDBACK` (KV) and `AUDIO` (R2). Secret `FEEDBACK_KEY` gates reading notes.
-- `voices/` — audio render kit (Kokoro on the A40; macOS `say` as an alternative). Outputs `out/audio/*.mp3` + `manifest.json` with sentence start times.
-- `ios/BUILD-iOS.md` — plan for the Capacitor iOS wrapper (built with Claude Code on Alex's Mac).
-- `SHIPPING.md` — one-time Cloudflare setup, ship, audio upload, reading feedback.
+- `hosting/cloudflare/wrangler.toml` — bindings `FEEDBACK` (KV) and `AUDIO` (R2). Secret `FEEDBACK_KEY` gates reading notes over HTTP.
+- `voices/` — audio render kit (Kokoro on the A40; macOS `say` as an alternative). Outputs `out/audio/*.mp3` + `manifest.json` with sentence start times. `publish_audio.sh` sends them to R2 through the `audio` branch.
+- `ios/` — the Capacitor iOS wrapper; `TESTFLIGHT.md` (getting it to testers), `BUILD-iOS.md` (the original plan), `NOTES.md` (build log).
+- `SHIPPING.md` — Cloudflare setup, ship, audio upload, reading feedback.
 
 ## Narration format
 
 ```
 === TOUR
-id: fidi
-title: Financial District & the Battery
-area: Manhattan
+id: loop
+title: The Loop: Birthplace of the Skyscraper
+area: Downtown
 blurb: One line.
 === OVERVIEW
 Paragraphs separated by blank lines.
-=== STOP Stop Title @ 40.7036,-74.0168
+=== STOP Stop Title @ 41.8787,-87.6357
 Paragraphs.
 ```
-Write for the ear: spell out abbreviations ("Street", not "St."), avoid symbols, and keep the second-person "look up at…" voice. Pronunciation fixes live in two places that must match: `SPEAK_FIX` in `index.html` and `voices/common.py`. Flag legends as legends; keep claims you aren't sure of out. Stop coordinates were hand-placed: when a note says a stop triggered late or early, fix its `@ lat,lng`.
+`area` groups tours on the home screen, in file order: Downtown, North Side, West & Northwest Sides, South Side, West suburbs. Write for the ear: spell out abbreviations ("Street", not "St."), avoid symbols, and keep the second-person "look up at…" voice. Pronunciation fixes live in two places that must match: `SPEAK_FIX` in `index.html` and `voices/common.py` (Chicago names such as Mies, DuSable, Cermak, Juárez, Goethe Street). Flag legends as legends; keep claims you aren't sure of out. Stop titles are display-only (only the text is spoken), so they may use "&".
+
+Stop coordinates were checked against OpenStreetMap (Nominatim) in November 2026. Keep consecutive stops at least about 120 m apart, because iOS geofences are at least 100 m across. When a note says a stop triggered late or early, fix its `@ lat,lng`.
 
 "Go deeper" chapters (`content/deeper/NN-<tour>.txt`):
 ```

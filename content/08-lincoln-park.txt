@@ -1,0 +1,91 @@
+=== TOUR
+id: lincoln-park
+title: Lincoln Park
+area: North Side
+blurb: A park built on a cemetery: Saint-Gaudens's Lincoln, the free zoo, the conservatory and Caldwell's Lily Pool, then the St. Valentine's Day Massacre and John Dillinger's last movie.
+=== OVERVIEW
+This tour explores Lincoln Park, the park, and then a corner of the neighborhood named after it.
+
+Lincoln Park is the largest park in Chicago, stretching about seven miles along the lakefront, much of it on landfill. Its southern end, where we start, has a strange history. In the 1840s, the city set aside land here for the City Cemetery, at what was then the edge of town. By the 1850s and 1860s, residents worried that burials so close to Lake Michigan were contaminating the water supply, and a doctor named John Rauch campaigned to move the cemetery and turn the land into a park. In 1864, the city established a park here, first called Lake Park, and after President Lincoln's assassination in 1865, it was renamed in his honor. Over the next decades, the graves were moved to new cemeteries farther from the city, such as Graceland and Rosehill. But not all of them were moved, as you'll hear.
+
+The park grew into one of Chicago's great public gardens, with a free zoo, a conservatory, ponds, beaches, statues, and a harbor. Its landscape was shaped by many designers over more than a century.
+
+West of the park, the neighborhood of Lincoln Park grew up as a mix of German, Irish, and later Puerto Rican and other communities. In the 1920s, its streets saw some of the most notorious events of the gangster era. Since the 1960s and 1970s, it has become one of the most affluent neighborhoods in the city, home to DePaul University and to blocks of beautiful Victorian houses.
+
+We'll start at the Chicago History Museum, walk north through the park past the zoo and the conservatory, and then west into the neighborhood, past the site of the St. Valentine's Day Massacre and a park dedicated to the Wizard of Oz, ending at the Biograph Theater on Lincoln Avenue.
+=== STOP Chicago History Museum, the Couch Tomb & the Standing Lincoln @ 41.9124,-87.6311
+You are at the southern end of Lincoln Park, near Clark Street and North Avenue, beside the Chicago History Museum. The museum, founded in 1856 as the Chicago Historical Society, is the city's memory: its collections include Lincoln's deathbed, artifacts from the Great Fire, and the history of the city's neighborhoods. It is well worth visiting.
+
+Now walk a little north and east, behind the museum. In the grass, you'll find a heavy, dark stone tomb, surrounded by a fence. This is the Couch tomb, built in 1858 for the family of Ira Couch, who ran the Tremont House, one of the city's grand early hotels.
+
+It's the last obvious trace of the City Cemetery that once covered this whole area. When the city removed the graves to create the park, the Couch family went to court to keep their tomb here. Moving it would have been difficult and expensive, and the tomb stayed. It's said that Ira Couch and several members of his family are still inside.
+
+Removing the other graves was a long and imperfect process. Thousands of graves, particularly those of poor people buried in unmarked plots, were never properly moved. Construction projects in the park over the years have turned up human remains, and researchers believe many people still lie under the lawns. As you walk through the south end of Lincoln Park, keep in mind that you may be walking over a cemetery.
+
+Close by in the park, near the museum, is one of the finest statues in America: Abraham Lincoln: The Man, often called the Standing Lincoln, by the sculptor Augustus Saint-Gaudens, unveiled in 1887.
+
+Lincoln stands in front of a chair, as if he has just risen to speak. His head is bowed, deep in thought, and his left hand holds his lapel. Saint-Gaudens spent years on it, and he worked from a life mask and casts of Lincoln's hands made in 1860. Many people who had known Lincoln said it was the best likeness ever made. Look at the curving stone bench, or exedra, around it. That was designed by the architect Stanford White, Saint-Gaudens's frequent partner.
+
+Lincoln had deep ties to Chicago. He was nominated for president in 1860 at the Republican convention here, held in a temporary hall called the Wigwam, at Lake and Market Streets downtown. Chicago in 1860 was a Republican, railroad, and grain town, and the nomination of a lawyer from Illinois was a victory for the Midwest.
+
+The statue was paid for by a gift from Eli Bates, a lumberman who left money for it in his will. Copies of the Standing Lincoln stand in London and Mexico City.
+
+As you walk north through the park toward the zoo, look for another president: Ulysses S. Grant, on horseback, high on top of a massive stone arch overlooking the lagoon. The monument was dedicated in 1891, and a huge crowd turned out to see it. Grant had close ties to Illinois. He was working in his family's leather goods store in Galena, in the northwest corner of the state, when the Civil War began, and he joined an Illinois regiment. Grant Park, downtown, is named for him too.
+=== STOP Lincoln Park Zoo @ 41.9213,-87.6337
+Walk north through the park to the entrance of the Lincoln Park Zoo. It's one of the oldest zoos in North America, and one of the very few major zoos that's still free to visit.
+
+It began in 1868 with a gift of a pair of swans from the commissioners of Central Park in New York. Animals were added over time, some donated, some bought. Through the late nineteenth century, it was a typical Victorian menagerie of cages and pens. Today, it's a modern zoo focused on conservation, and its exhibits for great apes are among its most famous.
+
+Look for a few of the older buildings, such as the red brick Lion House, built in 1912, with decorative animal heads and a grand hall inside. It was designed by Dwight Perkins, an architect of the Prairie School, a movement of Chicago architects led by Frank Lloyd Wright that celebrated the flat, wide landscape of the Midwest.
+
+Next to the zoo is a working farm exhibit, the Farm-in-the-Zoo, which lets city kids see cows, pigs, and chickens. And on the south side of the zoo is the old Café Brauer, a Prairie School restaurant building from 1908, built when this was a German-American part of town.
+
+The zoo is also known for its gorilla breeding program and for its role in research on endangered species. Admission is free because the zoo is owned by the Chicago Park District and supported by a private society, and Chicagoans fiercely protect that tradition.
+
+The zoo has had some famous residents. The most beloved was Bushman, a gorilla who arrived as a baby in 1930 and grew into a giant of more than five hundred pounds. Crowds lined up to see him, and when he died in 1951, he was mounted and put on display at the Field Museum, where he still is. In the 1940s and 1950s, the zoo's director, Marlin Perkins, hosted one of the first nature programs on television, Zoo Parade, broadcast from here, before he went on to host Wild Kingdom.
+
+And there's a story every Chicago child used to hear. In 1943, an elephant named Judy was supposed to be moved by truck from the Brookfield Zoo, in the western suburbs, to Lincoln Park. Judy refused to get into the truck. So her keepers walked her, all night, about eighteen miles through the city streets, and she arrived at Lincoln Park the next morning.
+=== STOP Conservatory & the Lily Pool @ 41.9246,-87.6343
+Walk north through the zoo or along Stockton Drive to Fullerton Parkway. On your right, just south of Fullerton, look for a small, almost hidden garden behind stone walls. This is the Alfred Caldwell Lily Pool, one of the hidden treasures of Chicago.
+
+It was designed by Alfred Caldwell in the late 1930s and built by the Works Progress Administration, the New Deal program that put unemployed workers to work on public projects. Caldwell was a disciple of Jens Jensen, the Danish-born landscape architect who created the Prairie style of landscape design. The idea was to recreate the natural landscape of the Midwest: a pond fed by a waterfall over layered limestone, like a river cutting through rock, surrounded by native plants and a stone pavilion with low, flat roofs. Caldwell was so committed to the project that he is said to have sold his house to help pay for plants. The garden was carefully restored in 2002.
+
+Just north is the Lincoln Park Conservatory, a Victorian glass house built in the early 1890s. It was designed by Joseph Lyman Silsbee, an architect who was Frank Lloyd Wright's first employer when Wright came to Chicago. Inside are a palm house, a fernery, an orchid house, and a show house with seasonal displays. Admission is free.
+
+In front of the conservatory are formal gardens, and on the south end, a bronze fountain from the 1880s with storks and fish, the Bates Fountain, by Augustus Saint-Gaudens and his assistant Frederick MacMonnies.
+
+Just north of here, across Fullerton Parkway, is the Peggy Notebaert Nature Museum, run by the Chicago Academy of Sciences, which was founded in 1857 and is one of the oldest scientific institutions in the Midwest. Its building opened in 1999, and its most popular room is a butterfly haven, a greenhouse where hundreds of butterflies fly freely around visitors. Beside it is North Pond, a small lagoon with a restaurant in an old Arts and Crafts warming shelter that ice skaters once used.
+=== STOP The St. Valentine's Day Massacre Site @ 41.9208,-87.6377
+Walk west on Fullerton and then south on Clark Street to the 2100 block. On the east side of the street, near 2122 North Clark, there is a small lawn next to a senior housing building. There is no marker here. But this is where one of the most notorious crimes in American history took place.
+
+On the morning of February 14th, 1929, seven men were waiting in a garage here, belonging to a trucking company called the S.M.C. Cartage Company. Most of them were members of the North Side Gang led by George "Bugs" Moran, the rival of Al Capone. A car pulled up, and several men got out, two of them dressed as police officers. The gang members, apparently believing it was a routine police raid, lined up against the wall. They were machine-gunned to death.
+
+Moran himself was not there. He was running late, and when he saw what looked like a police car, he stayed away.
+
+The massacre was widely blamed on Capone, who was in Florida at the time. No one was ever convicted. But it was a turning point. Public outrage at the violence helped turn the federal government against Capone, and he was convicted of tax evasion in 1931.
+
+The garage was torn down in 1967. The bricks from the wall where the men were shot were bought by a Canadian businessman, who displayed them for years, and some of them are now in the Mob Museum in Las Vegas.
+
+When the police arrived, one of the victims, Frank Gusenberg, was still alive, with more than a dozen bullets in him. A detective asked him who had shot him. "Nobody shot me," he said. He died a few hours later, keeping the gangster's code of silence to the end.
+=== STOP Oz Park @ 41.9209,-87.6457
+Walk west on Dickens Avenue, through blocks of handsome Victorian rowhouses and graystones, to Oz Park, at Dickens and Larrabee Street. Look for the statues: the Tin Man, the Cowardly Lion, the Scarecrow, and Dorothy with Toto, by the sculptor John Kearney. There's also a children's playground called Dorothy's Playlot and an Emerald Garden.
+
+The park is named for the land of Oz because Lyman Frank Baum wrote The Wonderful Wizard of Oz in Chicago. Baum was a restless man. He had been an actor, a playwright, a chicken breeder, a store owner, and a newspaper editor in South Dakota before he moved to Chicago in 1891, where he worked as a reporter and a traveling salesman for a china company. He told stories to his four sons and their friends, and he started writing them down. He lived in a house on Humboldt Boulevard, on the Northwest Side, while he wrote his most famous book.
+
+The Wonderful Wizard of Oz was published in Chicago in 1900, with illustrations by a Chicago artist, William Wallace Denslow. It was an immediate hit. A musical version opened in Chicago in 1902 and then ran on Broadway, and Baum wrote thirteen more Oz books before his death in 1919. People have long speculated that the Emerald City was inspired by the White City of the 1893 World's Fair, which Baum could have seen when he lived here. It's an appealing idea, but Baum never said so, and it remains a theory.
+
+Oz Park was created in the 1970s as part of an urban renewal plan for the neighborhood, and the statues were added starting in 1995. It's a favorite of neighborhood families.
+=== STOP The Biograph Theater @ 41.9264,-87.6496
+Walk northwest on Clark Street and then west up Lincoln Avenue to number 2433, the Biograph Theater, with its old-fashioned marquee.
+
+On the hot night of July 22nd, 1934, the bank robber John Dillinger, at the time the most wanted man in America and the FBI's Public Enemy Number One, came here to see a gangster movie, Manhattan Melodrama, starring Clark Gable. He was with two women. One of them, Ana Cumpanas, who used the name Anna Sage, was a Romanian immigrant facing deportation. She had made a deal with the FBI, promising to point out Dillinger in exchange for help with her case. She told agents she would be wearing an orange skirt, and the newspapers turned her into the Lady in Red.
+
+When Dillinger walked out of the theater, FBI agents were waiting. He was shot in the alley next to the theater and died there. Crowds gathered, and some people dipped handkerchiefs in his blood as souvenirs. Sage was deported anyway.
+
+The Biograph was a movie theater for decades after that, and later it was converted into a live theater for plays.
+
+Lincoln Avenue continues northwest from here, through a neighborhood of bars, restaurants, and Victorian houses. Just to the south is DePaul University, one of the largest Catholic universities in the country, founded in 1898 by the Vincentian Fathers.
+
+The man who led the ambush, the FBI agent Melvin Purvis, stood near the entrance and gave the signal to his men by lighting a cigar. Seventy-five years later, in 2009, the scene was filmed here again, for the movie Public Enemies, with Johnny Depp as Dillinger, and the theater's facade was dressed up to look as it did in 1934.
+
+This is the end of the Lincoln Park tour. The Fullerton station on the Red, Brown, and Purple Lines, a few blocks west along Fullerton Avenue, will take you back downtown.

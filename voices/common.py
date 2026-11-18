@@ -1,4 +1,4 @@
-"""Shared pieces for rendering Walk NYC narration to audio files.
+"""Shared pieces for rendering Walk Chicago narration to audio files.
 
 Each engine script supplies one function, synth(text) -> (pcm_bytes, sample_rate),
 that returns 16-bit mono PCM for a single sentence. This module splits tracks into
@@ -15,11 +15,20 @@ LEAD_IN = 0.30
 
 # Same pronunciation fixes the app applies to on-device speech.
 SPEAK_FIX = [
-    (r"\bSt\. (?=[A-Z])", "Saint "), (r"\bAT&T\b", "A T and T"), (r"\bA&P\b", "A and P"), (r"&", " and "),
-    (r"\b(East |West )?Houston Street", lambda m: (m.group(1) or "") + "Howston Street"),
-    (r"Haughwout", "Howut"), (r"Spuyten Duyvil", "Spy-ten Dyvil"), (r"Loisaida", "Lo-ee-sigh-da"),
-    (r"Nuyorican", "New-yo-rican"), (r"\bBC\b", "B.C."), (r"\bTKTS\b", "T K T S"), (r"\bBNY\b", "B N Y"),
-    (r"\bCBGB\b", "C B G B"),
+    (r"\bSt\. (?=[A-Z])", "Saint "), (r"\bAT&T\b", "A T and T"), (r"&", " and "),
+    # Chicago names the voices get wrong (respelled for the ear). Keep in step with SPEAK_FIX in index.html.
+    (r"\bMies\b", "Meese"), (r"\bvan der Rohe\b", "van der Roh-uh"), (r"\bJolliet\b", "Jo-lee-et"),
+    (r"\bMonadnock\b", "Muh-nad-nock"), (r"\bMiró", "Mee-roh"), (r"\bPotawatomi\b", "Pot-uh-wot-uh-mee"),
+    (r"\bCermak\b", "Sir-mack"), (r"\bPaderewski\b", "Pad-eh-ref-skee"), (r"\bGehry\b", "Gary"),
+    (r"\bSeurat\b", "Sur-rah"), (r"\bGrande Jatte\b", "Grahnd Zhaht"), (r"\bBueller\b", "Byoo-ler"),
+    (r"\bVolodymyr\b", "Vo-lo-dih-meer"), (r"\bRusyn\b", "Roo-sin"), (r"\bJiménez\b", "Hee-meh-nez"),
+    (r"\bAlbizu\b", "Al-bee-soo"), (r"\bjibarito", "hee-bah-ree-toe"), (r"\bStefanovic\b", "Steh-fah-no-vich"),
+    (r"\bGiancana\b", "Jan-kah-na"), (r"\bNetsch\b", "Netch"), (r"\bJuárez\b", "Hwah-rez"),
+    (r"Plzeň", "Pull-zen"), (r"\bMasaryk\b", "Mah-sah-rick"), (r"\bMinnekirken\b", "Minneh-keer-ken"),
+    (r"\bJackowo\b", "Yats-koh-vo"), (r"\bDuSable\b", "Doo-Sah-bul"), (r"\bLoeb\b", "Lobe"),
+    (r"\bMamah\b", "May-mah"), (r"\bTaliesin\b", "Tally-essin"), (r"\bGoethe Street\b", "Go-thee Street"),
+    (r"\bDes Plaines\b", "Dess Plains"), (r"\bPaulina\b", "Paw-lie-na"), (r"\bBoricua\b", "Bo-ree-kwa"),
+    (r"\bBorikén", "Bo-ree-ken"),
 ]
 
 def to_speech(t):
@@ -118,4 +127,4 @@ def run_all(engine, voice_label, synth, limit=None):
         mpath.write_text(json.dumps(manifest, ensure_ascii=False))  # save as we go, so a rerun resumes
     total = sum(v["dur"] for v in manifest["tracks"].values())
     print(f"\nDone: {len(manifest['tracks'])} tracks, {total/3600:.1f} hours of audio in {out}")
-    print("Next: bash upload_r2.sh  (uploads to the walk-nyc-audio R2 bucket; see SHIPPING.md)")
+    print("Next: bash upload_r2.sh  (or bash publish_audio.sh; see SHIPPING.md)")

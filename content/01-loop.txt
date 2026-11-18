@@ -1,0 +1,131 @@
+=== TOUR
+id: loop
+title: The Loop: Birthplace of the Skyscraper
+area: Downtown
+blurb: Rebuilt after the Great Fire, the Loop invented the tall office building. Burnham, Root, Sullivan, Mies, Picasso and Calder.
+=== OVERVIEW
+Welcome to the Loop, the commercial heart of Chicago, and one of the best places on earth to see how the modern city was invented.
+
+The name comes from transportation. In the late nineteenth century, cable car lines turned around in loops downtown, and in 1897 the elevated railroad tied its lines together in a ring of steel tracks above Wabash Avenue, Lake Street, Wells Street, and Van Buren Street. That ring is still running over your head. Strictly speaking, the Loop is the district inside it, but Chicagoans use the word for all of downtown.
+
+Almost nothing you will see on this walk is older than 1871. On the night of October eighth that year, a fire started in a barn on the West Side, near the property of Patrick and Catherine O'Leary. The story that Mrs. O'Leary's cow kicked over a lantern is a legend, one a newspaper reporter later admitted he made up, and the city council formally cleared her in 1997. But the fire was real. Driven by a strong southwest wind across a city built largely of wood, it jumped the river and burned for more than a day. It killed about three hundred people, left roughly a hundred thousand homeless, and destroyed the downtown almost completely.
+
+What came next is the reason this tour exists. Chicago rebuilt fast, and land in the center became fantastically valuable. Architects and engineers, many of them young and drawn here by the rebuilding, faced a simple problem: how to stack more rentable offices on a small lot. Masonry walls had to get thicker and thicker at the base the higher a building rose. The answer was a skeleton of iron and then steel carrying the weight, with the outer walls hung on it like a skin. Add the safety elevator, fireproofing, and plate glass, and you have the skyscraper. William Le Baron Jenney's Home Insurance Building, finished in 1885 at LaSalle and Adams and demolished in 1931, is often called the first, though historians argue over the title.
+
+The people who worked out the details are known as the Chicago School: Daniel Burnham and John Wellborn Root, William Holabird and Martin Roche, Dankmar Adler and Louis Sullivan. Look for their signatures as you walk: steel frames expressed on the outside, wide three-part windows that came to be called Chicago windows, and, from Sullivan, ornament that seems to grow out of the building like a plant.
+
+A generation later, a German émigré named Ludwig Mies van der Rohe arrived and made the steel frame itself into the art, in black steel and glass. And in the 1960s and 1970s, the city added monumental public sculpture to its plazas by Picasso, Calder, Miró, and Chagall, all within a few blocks of each other.
+
+We will start at the Willis Tower, on the west edge of the Loop, then visit the Board of Trade at the foot of LaSalle Street, and walk east and north through the heart of the Loop, finishing under the marquee of the Chicago Theatre. Keep an ear out for the elevated trains, and keep looking up.
+=== STOP Willis Tower @ 41.8787,-87.6357
+You're at the base of the Willis Tower, on Wacker Drive at Adams Street. For most Chicagoans it will always be the Sears Tower. When it was finished in 1973, it was the tallest building in the world, at a hundred and ten stories, and it held that title for almost twenty-five years.
+
+It was built for Sears, Roebuck and Company, then the largest retailer on earth. Richard Sears was a railroad station agent in Minnesota who started selling watches by mail in the 1880s. He moved to Chicago and joined forces with a watchmaker named Alvah Roebuck, and their catalog grew into a book of more than a thousand pages that sold almost everything: clothes, tools, stoves, medicine, guns, even complete houses, shipped as kits by rail. For farm families far from any town, the Sears catalog was the store. In the Jim Crow South, Black customers could order from it without facing the humiliations of a white-owned store. The man who turned Sears into a giant was Julius Rosenwald, whose name you'll hear again in Hyde Park and Bronzeville.
+
+The tower was designed by Skidmore, Owings and Merrill, with the architect Bruce Graham and the engineer Fazlur Khan. Look up and you'll see that it isn't one block but a bundle of nine square tubes, tied together. The tubes stop at different heights, two at the fiftieth floor, two at the sixty-sixth, three at the ninetieth, and two go all the way to the top. The setbacks were partly for the wind, and partly because Sears wanted big floors at the bottom for its own offices and smaller floors higher up to rent.
+
+Sears moved its headquarters to the suburbs in the 1990s, and the building was renamed in 2009 for an insurance company. On the hundred and third floor, the Skydeck has glass boxes that stick out from the side of the building, so you can stand with nothing but glass between you and the street, more than thirteen hundred feet below.
+
+Inside the lobby on Wacker Drive, look for a large moving sculpture by Alexander Calder called Universe, with a sun, a pendulum, and spinning spirals. It was unveiled the same day in 1974 as the Flamingo, which you'll see later on this walk.
+=== STOP Chicago Board of Trade @ 41.8778,-87.6319
+You are standing at the southern end of LaSalle Street, and the building closing off the end of the street is the Chicago Board of Trade. LaSalle is Chicago's financial street, and this tower was placed to be the period at the end of its sentence.
+
+The Board of Trade was founded in 1848 by merchants trying to bring order to the chaotic grain business. Chicago sat between the farms of the Midwest and the markets of the East, and the Board created something new: standardized grades of grain, so that a bushel of number two wheat was interchangeable with any other. Once grain was a standard commodity, people could trade promises to deliver it in the future. That is the origin of the modern futures market, and for generations the price of the world's wheat, corn, and soybeans was set in shouting matches in trading pits inside buildings on this spot.
+
+This building, the third Board of Trade on the site, opened in 1930. It was designed by Holabird and Root, the next generation of the firms you will hear about all day, and it is one of the finest Art Deco skyscrapers in the country. Look at the facade for carved sheaves of wheat, and at the hooded figures near the clock holding grain and corn, one of them a Native American figure holding corn, the other a Babylonian holding wheat, symbols of the two hemispheres of agriculture.
+
+Now look all the way to the top. That aluminum statue on the pyramid roof is Ceres, the Roman goddess of grain, by the sculptor John Storrs. She is about thirty feet tall, and she has no face, only smooth, abstract planes. The usual explanation is that Storrs reasoned no one on the ground would ever see her face from more than forty stories below, so he did not bother with one. For decades she stood over the tallest building in Chicago.
+
+The pits closed to open outcry trading in the 2010s as electronic trading took over, but the building is still a working office tower, and the Board of Trade is now part of CME Group.
+
+The pits produced some of the most dramatic financial battles in American history. Traders tried to corner the market, buying up so much of a commodity that anyone who had promised to deliver it would have to buy from them, at any price. In 1897, a young speculator named Joseph Leiter, the son of one of Marshall Field's partners, tried to corner the world's wheat. The meatpacker Philip Armour, who had sold wheat he didn't yet have, broke the corner by chartering icebreakers to smash a path through the frozen lakes and bring his grain from the north in the middle of winter. Leiter lost millions. The novelist Frank Norris turned stories like this into a novel called The Pit. Traders in the pits communicated over the roar with a system of hand signals, palms facing in to buy, palms facing out to sell, and some of those signals are still taught today.
+=== STOP The Rookery @ 41.8791,-87.6318
+Walk a few steps north on LaSalle. This red stone and brick fortress on the east side of the street is the Rookery, completed in 1888 by Burnham and Root. It is one of the oldest high-rises still standing in Chicago, and one of its great interiors.
+
+The name comes from the temporary city hall that stood here after the fire, a building that pigeons and crows found irresistible. Locals called it the rookery, and Root, who had a sense of humor, carved stylized birds near the entrance. Look for them around the arched doorway on LaSalle.
+
+From the outside, the Rookery is a transitional building. The street walls are heavy masonry carrying their own weight, but inside, the building is framed in iron. Root designed it as a hollow square around a central light court, so that every office got daylight in an age of dim gas and early electric lamps. The bottom two stories of the court were roofed with glass and iron, making a bright, two-story lobby.
+
+If the building is open, step inside. In 1905, the lobby was remodeled by a young Frank Lloyd Wright, who covered much of Root's ornate ironwork in white marble with incised gold patterns and added his own geometric light fixtures. Look up at the spiral staircase that winds up the west side of the court, the oriel stair. It is one of the most photographed spaces in the city.
+
+Daniel Burnham kept his office here for a time. He and Root were partners until 1891, when Root died suddenly of pneumonia at forty-one, just as the firm was planning the World's Columbian Exposition of 1893. Burnham carried on alone and became the most powerful architect in America.
+
+Chicago's ground made all of this harder. Beneath the city lies soft, wet clay, and for many feet, nothing solid to build on. Root's answer, first used a few years earlier, was the floating raft foundation: a mat of steel rails and concrete, laid in crisscrossing layers, that spread the weight of each column over a wide area, so the building floats on the clay like a raft. Look closely at the Rookery's base and you'll see how wide and heavy it is. Even so, many of Chicago's early skyscrapers settled several inches, some much more, and the problem wasn't solved until engineers began sinking caissons, deep shafts filled with concrete, down to bedrock about a hundred feet below the street.
+=== STOP Marquette Building @ 41.8798,-87.6297
+Walk east along Adams Street to Dearborn Street and turn left. On the west side of Dearborn, just north of Adams, is the Marquette Building, designed by Holabird and Roche and finished in 1895.
+
+Step back across the street and look at the facade. You can read the steel frame right through the brick and terra cotta: a grid of piers and spandrels, with wide windows filling each bay. Those windows are the famous Chicago window, a large fixed pane of glass in the middle, flanked by two narrow sashes that open for ventilation. In a time before air conditioning, this was the solution for light and air at once, and you will see it all over the Loop.
+
+The building is named for Jacques Marquette, the French Jesuit missionary who, with the explorer Louis Jolliet, traveled through this area in 1673, and who camped near the Chicago River over the winter of 1674 and 1675. Look at the bronze reliefs over the entrance, which show scenes of the expedition.
+
+If the lobby is open, step inside and look up at the mosaic frieze that runs around the balcony. It was made by the Tiffany studios, in glass and mother of pearl, and tells Marquette's story, with portraits of Marquette, Jolliet, and the Native people they met. The lobby is one of the finest of its era, and the building is now headquarters to the MacArthur Foundation, which restored it.
+
+Notice how the building is organized like a classical column. There's a base, the two-story ground floor with its heavier stone, then a long, plain shaft of offices, and then a capital, the decorated cornice and top floors. This three-part scheme became the standard formula for the American office building. It was Louis Sullivan who explained it most famously, but you can see Holabird and Roche using it here in a businesslike way. Their firm became one of the busiest in the Loop, and as Holabird and Root, it designed the Board of Trade. Today the Marquette is the home of the MacArthur Foundation, best known for its genius grants, the large, no-strings-attached fellowships it gives every year to creative people in every field.
+=== STOP Federal Center & Calder's Flamingo @ 41.8788,-87.6297
+Cross Dearborn and walk into the open plaza across the street. The black steel and glass towers surrounding you make up the Federal Center, designed by Ludwig Mies van der Rohe and completed in stages from the 1960s to the 1970s.
+
+Mies had been director of the Bauhaus in Germany. He left in 1937 as the Nazis made modern architecture impossible there and came to Chicago to head the architecture school at what became the Illinois Institute of Technology. Here he spent three decades refining one idea: a building as a pure, rational frame. Look at the thin steel I-beams running up the facades. Structurally, they do almost nothing. They are there to express the frame and give the walls rhythm. "Less is more" is the phrase most associated with him.
+
+The plaza is part of the design. Notice that the paving grid lines up with the buildings, and the lobbies are walled in glass so the plaza seems to flow inside.
+
+And then, in the middle of all that black and gray, there is the Flamingo: a fifty-foot sculpture of arches in bright vermilion steel by Alexander Calder. Calder painted it a particular red that is now called Calder red, and it is the perfect foil to Mies's rigor. The Flamingo was unveiled in October 1974 on the same day as Calder's moving sculpture inside the Sears Tower, and the city celebrated with a circus parade through the Loop, with Calder himself riding in a bandwagon.
+
+Look south across Jackson Boulevard at the long, dark brown brick building. That is the Monadnock, and it is our next stop.
+
+One of the towers of the Federal Center is the Dirksen Federal Building, a federal courthouse. In 1969, it was the scene of one of the most chaotic trials in American history, the trial of the Chicago Seven, the antiwar activists charged with conspiracy to incite riots during the 1968 Democratic convention. The defendants, including Abbie Hoffman and Tom Hayden, mocked the court and wore judicial robes to the trial, and the judge, Julius Hoffman, no relation, sentenced them and their lawyers to prison for contempt. One original defendant, the Black Panther leader Bobby Seale, demanded to represent himself, and the judge had him bound and gagged in the courtroom. The convictions were later overturned on appeal.
+=== STOP Monadnock Building @ 41.8775,-87.6295
+You are now facing the Monadnock Building, which fills the block along Dearborn between Jackson and Van Buren. It is really two buildings, and the difference between them tells the story of the skyscraper.
+
+The northern half, designed by Burnham and Root and finished in 1891, is sixteen stories of load-bearing brick. There is no steel frame carrying the outer walls. To hold up that much masonry, the walls at the bottom are about six feet thick. Walk along the sidewalk and look at how deep the window openings are at street level compared with the upper floors. The owners asked for no ornament at all, and Root obliged with almost none. Instead, look at how the walls gently curve outward at the top, like the neck of a vase, and how the corners are softly rounded at the base. It is one of the most beautiful plain buildings ever made, and it was nearly the tallest that brick can reasonably go.
+
+The southern half, finished in 1893 by Holabird and Roche, was built with a steel frame. It is the same height, but its walls are thinner and its bays are lighter and more open. Within two years, on the same block, the old way of building tall gave way to the new.
+
+Inside, the Monadnock has kept much of its original character, including mosaic floors, a cantilevered staircase, and old storefronts along the ground-floor corridor. It is still full of small offices and shops.
+
+The name comes from Mount Monadnock in New Hampshire. The building was financed by two brothers from Boston, Peter and Shepherd Brooks, who invested heavily in Chicago real estate and named several of their buildings after New England mountains. Absentee investors from the East, like the Brookses, put up much of the money that rebuilt Chicago, and they often pushed their architects for plain, economical buildings with as much rentable space and as little decoration as possible. Their manager in Chicago, Owen Aldis, has been called one of the unsung fathers of the Chicago School, because he insisted on buildings that were practical, light-filled, and easy to maintain.
+=== STOP Sullivan Center @ 41.8815,-87.6273
+Walk east to State Street and turn left, north, to the corner of State and Madison Street. For many years this corner was said to be the busiest intersection in the world, and it is the zero point of Chicago's address grid. Every address in the city is counted from here: north and south from Madison, east and west from State.
+
+The white building on the southeast corner is the Sullivan Center, designed by Louis Sullivan for the Schlesinger and Mayer department store around 1899 and expanded by 1904. For about a hundred years it was the Carson Pirie Scott store.
+
+Look above the rounded corner entrance and along the first two floors. That dense, swirling cast-iron ornament, painted a dark green, is Sullivan at his most inventive: leaves, vines, and geometric forms twisting into each other. He wanted the ground floor to be rich and inviting at eye level, where shoppers would see it, like a picture frame around the display windows.
+
+Now look higher. The upper floors are almost the opposite: a simple white grid of terra cotta with wide Chicago windows. Sullivan is famous for the phrase "form ever follows function," and this building shows what he meant. A department store needs light and open floors, so the frame is expressed plainly, and the ornament is concentrated where people meet the building.
+
+Sullivan's career collapsed after this building, and he died poor in a Chicago hotel room in 1924. His former draftsman, Frank Lloyd Wright, always called him the master.
+
+One block south, at State and Monroe, is the Palmer House, the hotel Potter Palmer built and rebuilt after the fire, now in its third building, from the 1920s. Step into its lobby if you can and look up at the ceiling, painted with scenes from Greek mythology. And look along State Street itself. This was Chicago's great shopping street, lined with department stores: Marshall Field's, Carson Pirie Scott, Mandel Brothers, the Fair, and Sears. A popular song from 1922 made it famous: "State Street, that great street." In the 1970s, the city turned State Street into a pedestrian mall with buses only, and it nearly died. The cars were let back in in 1996, and the street came back to life.
+=== STOP Reliance Building @ 41.8830,-87.6281
+Walk north on State Street to Washington Street. On the southwest corner is a slender building that looks as though it was built decades later than it was. This is the Reliance Building, and it was finished in 1895.
+
+The first floors were designed by John Root before his death, and the rest by Charles Atwood of Burnham's firm. Look at how much of the facade is glass. The steel frame is so light that the walls are mostly windows, with thin bands of white glazed terra cotta in between. The projecting bays give every office windows on three sides. When architects in the twentieth century went looking for the ancestor of the all-glass skyscraper, they often pointed here.
+
+The white terra cotta had a practical purpose too. Chicago in the 1890s was a city of coal smoke, and glazed terra cotta could be washed clean.
+
+By the 1990s the building was badly run down. It was restored and converted into a hotel, and you can see in the lobby some of the original elevator grilles and mosaic floors.
+
+Across Washington Street, on the northeast corner, is the old Marshall Field's department store, a full block of granite built in stages in the early twentieth century by Burnham's firm. Look for the great bronze clocks hanging over the corners of the building. "Meet me under the clock" was how generations of Chicagoans arranged to meet downtown. Marshall Field built the business on a simple idea: give customers what they want, take returns without argument, and treat shoppers like guests. The store claims to have opened one of the first department store restaurants, the Walnut Room, and its chocolate mints, called Frango Mints, became a Chicago tradition. Inside is a ceiling of glass mosaic made by the Tiffany studios, said to contain well over a million pieces. In 2006, the store was renamed Macy's, and many Chicagoans still haven't forgiven it.
+=== STOP Daley Plaza & the Picasso @ 41.8836,-87.6300
+Walk west on Washington Street to the large open plaza on your right. This is Richard J. Daley Center Plaza, named for the mayor who ran Chicago from 1955 until his death in 1976. The rust-colored tower behind it is the Daley Center, which holds courtrooms. It is clad in Cor-Ten steel, designed to weather to this deep brown and then stop corroding.
+
+And in front of it stands the Picasso. Pablo Picasso designed it, but never came to Chicago. He sent a model, and the fifty-foot sculpture was fabricated in Indiana from the same weathering steel as the building behind it. It was unveiled in August 1967. Picasso declined the fee he was offered and gave the design to the people of Chicago.
+
+It has no title. When it was unveiled, people argued about what it was. A woman? A baboon? An Afghan hound? Picasso never said, and Chicagoans have mostly settled on a woman's head, with long hair down the back. Some people say it resembles the profile of a woman Picasso knew, but that is a guess.
+
+Today it is beloved, and children use its sloping base as a slide. Across Washington Street you can see a later sculpture, Joan Miró's tall figure, sometimes called Miss Chicago, standing in a small plaza beside the Brunswick Building.
+
+Daley Plaza is also the city's front porch. It hosts a Christkindlmarket in winter, a farmers market in summer, and many of Chicago's protests and celebrations.
+
+Look at the building on the west side of the plaza, with tall columns, across Clark Street. That's City Hall and the County Building, a single building completed in 1911, where the mayor and the city council meet. On its roof is a garden of native prairie plants, planted in 2001 as an experiment to cool the building, and one of the first green roofs on a big American public building. The Daley Center itself has a Hollywood claim to fame: in the 1980 comedy The Blues Brothers, the heroes crash their car through the lobby, chased by what seems like half the police in Illinois.
+=== STOP Chicago Theatre @ 41.8855,-87.6272
+Walk back east to State Street and turn left, north, to Lake Street. Above you, the elevated trains rattle along the north side of the Loop. And on the west side of State, just past Lake, is the sign that is almost a logo for the city: the vertical marquee of the Chicago Theatre.
+
+The theatre opened in 1921, built by Balaban and Katz, the movie palace chain that turned going to the movies into an event. It was designed by the brothers Cornelius and George Rapp. Look at the facade above the marquee: a giant arch with a round stained-glass window, modeled on a French triumphal arch. Inside is a grand lobby modeled on the Royal Chapel at Versailles, and an auditorium that seats about thirty-six hundred people.
+
+Balaban and Katz were known for their showmanship and for what they called the comfort of the audience. Their theatres were among the first in the country to be cooled in summer, with early air conditioning systems, which helped draw crowds in the heat.
+
+By the 1980s, the theatre was in decline and threatened with demolition. It was saved, restored, and reopened in 1986, and today it hosts concerts and comedy. The marquee lit up overhead is a replica of the 1949 sign, and the six-story vertical sign spelling out Chicago is one of the most photographed spots in the city.
+
+Look up at the elevated tracks. They were built in the 1890s by a group of companies controlled by Charles Tyson Yerkes, a ruthless financier who ran much of Chicago's streetcar system and was famous for bribing aldermen. He's said to have explained that the secret of success in his business was to buy up old junk, fix it up a little, and unload it on other fellows. When Chicago finally turned against him, he moved to London and helped build the London Underground. The ring of tracks he completed in 1897, the Union Loop, gave the downtown its name, and the trains still squeal around its tight corners every few minutes, more than a century later.
+
+This is the end of the Loop tour. If you keep walking north on State Street, you will reach the Chicago River in two blocks, where the Riverwalk tour begins.

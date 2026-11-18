@@ -1,4 +1,4 @@
-"""Render Walk NYC narration with macOS's built-in voices (including downloaded Premium ones).
+"""Render Walk Chicago narration with macOS's built-in voices (including downloaded Premium ones).
 
 No installs needed. Download voices first: System Settings > Accessibility > Spoken Content >
 System voice > Manage Voices... > English, and tick the Premium/Enhanced voices you want.
