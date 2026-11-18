@@ -31,6 +31,8 @@ SPEAK_FIX = [
     (r"\bBorikén", "Bo-ree-ken"), (r"\bpysanky\b", "pih-sahn-kih"), (r"\bpysanka\b", "pih-sahn-kah"),
     (r"\bKnute\b", "Noot"), (r"\bRockne\b", "Rock-nee"), (r"\bSkandinaven\b", "Skahn-dee-nah-ven"),
     (r"\bMi Tocaya\b", "Mee Toh-kai-yah"), (r"\bantojos\b", "ahn-toh-hohs"), (r"\bDávila\b", "Dah-vee-lah"),
+    (r"\bSpies\b", "Speez"), (r"\bNeebe\b", "Nee-bee"), (r"\bMacSwiney\b", "Mac-Swee-nee"), (r"\bPeloponnese\b", "Pel-o-po-neez"),
+    (r"\bApostolou\b", "Ah-po-stoh-loo"), (r"\bBrach\b", "Brock"), (r"\bSchnering\b", "Shner-ing"), (r"\bWeinert\b", "Wine-ert"), (r"\bGelert\b", "Geh-lert"),
 ]
 
 def to_speech(t):

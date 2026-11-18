@@ -313,7 +313,7 @@ const SPEAK_FIX=[
   [/\bMinnekirken\b/g,"Minneh-keer-ken"],[/\bJackowo\b/g,"Yats-koh-vo"],[/\bDuSable\b/g,"Doo-Sah-bul"],
   [/\bLoeb\b/g,"Lobe"],[/\bMamah\b/g,"May-mah"],[/\bTaliesin\b/g,"Tally-essin"],[/\bGoethe Street\b/g,"Go-thee Street"],
   [/\bDes Plaines\b/g,"Dess Plains"],[/\bPaulina\b/g,"Paw-lie-na"],[/\bBoricua\b/g,"Bo-ree-kwa"],
-  [/\bBorikén/g,"Bo-ree-ken"],[/\bpysanky\b/g,"pih-sahn-kih"],[/\bpysanka\b/g,"pih-sahn-kah"],[/\bKnute\b/g,"Noot"],[/\bRockne\b/g,"Rock-nee"],[/\bSkandinaven\b/g,"Skahn-dee-nah-ven"],[/\bMi Tocaya\b/g,"Mee Toh-kai-yah"],[/\bantojos\b/g,"ahn-toh-hohs"],[/\bDávila\b/g,"Dah-vee-lah"]
+  [/\bBorikén/g,"Bo-ree-ken"],[/\bpysanky\b/g,"pih-sahn-kih"],[/\bpysanka\b/g,"pih-sahn-kah"],[/\bKnute\b/g,"Noot"],[/\bRockne\b/g,"Rock-nee"],[/\bSkandinaven\b/g,"Skahn-dee-nah-ven"],[/\bMi Tocaya\b/g,"Mee Toh-kai-yah"],[/\bantojos\b/g,"ahn-toh-hohs"],[/\bDávila\b/g,"Dah-vee-lah"],[/\bSpies\b/g,"Speez"],[/\bNeebe\b/g,"Nee-bee"],[/\bMacSwiney\b/g,"Mac-Swee-nee"],[/\bPeloponnese\b/g,"Pel-o-po-neez"],[/\bApostolou\b/g,"Ah-po-stoh-loo"],[/\bBrach\b/g,"Brock"],[/\bSchnering\b/g,"Shner-ing"],[/\bWeinert\b/g,"Wine-ert"],[/\bGelert\b/g,"Geh-lert"]
 ];
 function toSpeech(t){for(const [re,rep] of SPEAK_FIX)t=t.replace(re,rep);return t;}
 function words(t){return t.split(/\s+/).length;}
