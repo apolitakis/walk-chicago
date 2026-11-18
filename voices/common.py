@@ -21,14 +21,14 @@ SPEAK_FIX = [
     (r"\bMonadnock\b", "Muh-nad-nock"), (r"\bMiró", "Mee-roh"), (r"\bPotawatomi\b", "Pot-uh-wot-uh-mee"),
     (r"\bCermak\b", "Sir-mack"), (r"\bPaderewski\b", "Pad-eh-ref-skee"), (r"\bGehry\b", "Gary"),
     (r"\bSeurat\b", "Sur-rah"), (r"\bGrande Jatte\b", "Grahnd Zhaht"), (r"\bBueller\b", "Byoo-ler"),
-    (r"\bVolodymyr\b", "Vo-lo-dih-meer"), (r"\bRusyn\b", "Roo-sin"), (r"\bJiménez\b", "Hee-meh-nez"),
+    (r"\bVolodymyr\b", "Vo-lo-dih-meer"), (r"\bRusyn(?=s?\b)", "Roo-sin"), (r"\bJiménez\b", "Hee-meh-nez"),
     (r"\bAlbizu\b", "Al-bee-soo"), (r"\bjibarito", "hee-bah-ree-toe"), (r"\bStefanovic\b", "Steh-fah-no-vich"),
     (r"\bGiancana\b", "Jan-kah-na"), (r"\bNetsch\b", "Netch"), (r"\bJuárez\b", "Hwah-rez"),
     (r"Plzeň", "Pull-zen"), (r"\bMasaryk\b", "Mah-sah-rick"), (r"\bMinnekirken\b", "Minneh-keer-ken"),
     (r"\bJackowo\b", "Yats-koh-vo"), (r"\bDuSable\b", "Doo-Sah-bul"), (r"\bLoeb\b", "Lobe"),
     (r"\bMamah\b", "May-mah"), (r"\bTaliesin\b", "Tally-essin"), (r"\bGoethe Street\b", "Go-thee Street"),
     (r"\bDes Plaines\b", "Dess Plains"), (r"\bPaulina\b", "Paw-lie-na"), (r"\bBoricua\b", "Bo-ree-kwa"),
-    (r"\bBorikén", "Bo-ree-ken"),
+    (r"\bBorikén", "Bo-ree-ken"), (r"\bpysanky\b", "pih-sahn-kih"), (r"\bpysanka\b", "pih-sahn-kah"),
 ]
 
 def to_speech(t):

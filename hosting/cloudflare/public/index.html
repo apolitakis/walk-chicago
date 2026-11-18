@@ -307,13 +307,13 @@ const SPEAK_FIX=[
   [/\bMonadnock\b/g,"Muh-nad-nock"],[/\bMiró/g,"Mee-roh"],[/\bPotawatomi\b/g,"Pot-uh-wot-uh-mee"],
   [/\bCermak\b/g,"Sir-mack"],[/\bPaderewski\b/g,"Pad-eh-ref-skee"],[/\bGehry\b/g,"Gary"],[/\bSeurat\b/g,"Sur-rah"],
   [/\bGrande Jatte\b/g,"Grahnd Zhaht"],[/\bBueller\b/g,"Byoo-ler"],[/\bVolodymyr\b/g,"Vo-lo-dih-meer"],
-  [/\bRusyn\b/g,"Roo-sin"],[/\bJiménez\b/g,"Hee-meh-nez"],[/\bAlbizu\b/g,"Al-bee-soo"],[/\bjibarito/g,"hee-bah-ree-toe"],
+  [/\bRusyn(?=s?\b)/g,"Roo-sin"],[/\bJiménez\b/g,"Hee-meh-nez"],[/\bAlbizu\b/g,"Al-bee-soo"],[/\bjibarito/g,"hee-bah-ree-toe"],
   [/\bStefanovic\b/g,"Steh-fah-no-vich"],[/\bGiancana\b/g,"Jan-kah-na"],[/\bNetsch\b/g,"Netch"],
   [/\bJuárez\b/g,"Hwah-rez"],[/Plzeň/g,"Pull-zen"],[/\bMasaryk\b/g,"Mah-sah-rick"],
   [/\bMinnekirken\b/g,"Minneh-keer-ken"],[/\bJackowo\b/g,"Yats-koh-vo"],[/\bDuSable\b/g,"Doo-Sah-bul"],
   [/\bLoeb\b/g,"Lobe"],[/\bMamah\b/g,"May-mah"],[/\bTaliesin\b/g,"Tally-essin"],[/\bGoethe Street\b/g,"Go-thee Street"],
   [/\bDes Plaines\b/g,"Dess Plains"],[/\bPaulina\b/g,"Paw-lie-na"],[/\bBoricua\b/g,"Bo-ree-kwa"],
-  [/\bBorikén/g,"Bo-ree-ken"]
+  [/\bBorikén/g,"Bo-ree-ken"],[/\bpysanky\b/g,"pih-sahn-kih"],[/\bpysanka\b/g,"pih-sahn-kah"]
 ];
 function toSpeech(t){for(const [re,rep] of SPEAK_FIX)t=t.replace(re,rep);return t;}
 function words(t){return t.split(/\s+/).length;}
