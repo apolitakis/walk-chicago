@@ -29,6 +29,8 @@ SPEAK_FIX = [
     (r"\bMamah\b", "May-mah"), (r"\bTaliesin\b", "Tally-essin"), (r"\bGoethe Street\b", "Go-thee Street"),
     (r"\bDes Plaines\b", "Dess Plains"), (r"\bPaulina\b", "Paw-lie-na"), (r"\bBoricua\b", "Bo-ree-kwa"),
     (r"\bBorikén", "Bo-ree-ken"), (r"\bpysanky\b", "pih-sahn-kih"), (r"\bpysanka\b", "pih-sahn-kah"),
+    (r"\bKnute\b", "Noot"), (r"\bRockne\b", "Rock-nee"), (r"\bSkandinaven\b", "Skahn-dee-nah-ven"),
+    (r"\bMi Tocaya\b", "Mee Toh-kai-yah"), (r"\bantojos\b", "ahn-toh-hohs"), (r"\bDávila\b", "Dah-vee-lah"),
 ]
 
 def to_speech(t):
