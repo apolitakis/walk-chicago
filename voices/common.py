@@ -47,6 +47,7 @@ SPEAK_FIX = [
     (r"\bguo\b", "gwoh"), (r"\bfu\b", "foo"), (r"\bpaifang\b", "pie-fahng"), (r"\bTaishan\b", "Tie-shahn"), (r"\bToisan\b", "Toy-sahn"), (r"\bGuangzhou\b", "Gwahng-joe"), (r"\bKaiping\b", "Kye-ping"),
     (r"\bdiaolou\b", "dyow-loh"), (r"\bSiu\b", "Sue"), (r"\bsiu\b", "syoo"), (r"\bbao\b", "bow"), (r"\bBeihai\b", "Bay-hye"), (r"\bQianlong\b", "Chyen-loong"), (r"\bQu\b", "Choo"),
     (r"\bYangtze\b", "Yang-see"), (r"\bMiluo\b", "Mee-lwoh"), (r"\bzongzi\b", "dzong-dzuh"), (r"\bTian\b", "Tyen"), (r"\bXia\b", "Shyah"),
+    (r"\bVeeck\b", "Veck"), (r"\bSioux\b", "Soo"), (r"\bBougainville\b", "Boo-gun-vil"), (r"\bGaedel\b", "Gay-dell"), (r"\bDraugas\b", "Drow-gus"), (r"\bLituanica\b", "Lit-oo-ah-nik-uh"), (r"\bKaunas\b", "Kow-nus"), (r"\bSteponas\b", "Steh-poh-nus"), (r"\bStasys\b", "Stah-sees"), (r"\bGirėnas\b", "Gih-ray-nus"), (r"\bChanute\b", "Shuh-noot"), (r"\bSheil\b", "Sheel"),
 ]
 
 def to_speech(t):
