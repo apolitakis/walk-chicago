@@ -43,6 +43,10 @@ SPEAK_FIX = [
     (r"\bmuerto\b", "mwair-toh"), (r"\borejas\b", "oh-reh-hahs"), (r"\bcuernos\b", "kwair-nohs"), (r"\bmarranitos\b", "mah-rah-nee-tohs"), (r"\bpiloncillo\b", "pee-lon-see-yo"), (r"\breyes\b", "ray-ess"), (r"\bCarbajal\b", "Kar-bah-hahl"),
     (r"\bInocencio\b", "Ee-no-sen-syo"), (r"\bUruapan\b", "Oo-roo-ah-pahn"), (r"\bMichoacán\b", "Mee-cho-ah-kahn"), (r"\bpaletería\b", "pah-leh-teh-ree-ah"), (r"\bpaletas\b", "pah-leh-tahs"), (r"\bMuskegon\b", "Muss-kee-gun"), (r"\bMenominee\b", "Meh-nom-ih-nee"),
     (r"\bSchenectady\b", "Skuh-nek-tuh-dee"),
+    (r"\bZhongshan\b", "Jong-shahn"), (r"\bMacau\b", "Muh-cow"), (r"\bQing\b", "Ching"), (r"\bWuchang\b", "Woo-chahng"), (r"\bShikai\b", "Shir-kye"), (r"\bYuan\b", "Yoo-ahn"), (r"\bNian\b", "Nyen"),
+    (r"\bguo\b", "gwoh"), (r"\bfu\b", "foo"), (r"\bpaifang\b", "pie-fahng"), (r"\bTaishan\b", "Tie-shahn"), (r"\bToisan\b", "Toy-sahn"), (r"\bGuangzhou\b", "Gwahng-joe"), (r"\bKaiping\b", "Kye-ping"),
+    (r"\bdiaolou\b", "dyow-loh"), (r"\bSiu\b", "Sue"), (r"\bsiu\b", "syoo"), (r"\bbao\b", "bow"), (r"\bBeihai\b", "Bay-hye"), (r"\bQianlong\b", "Chyen-loong"), (r"\bQu\b", "Choo"),
+    (r"\bYangtze\b", "Yang-see"), (r"\bMiluo\b", "Mee-lwoh"), (r"\bzongzi\b", "dzong-dzuh"), (r"\bTian\b", "Tyen"), (r"\bXia\b", "Shyah"),
 ]
 
 def to_speech(t):
