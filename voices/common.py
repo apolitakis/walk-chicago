@@ -51,6 +51,7 @@ SPEAK_FIX = [
     (r"\bMahalia\b", "Muh-hail-yuh"), (r"\bAlschuler\b", "Al-shoo-ler"), (r"\bPisgah\b", "Piz-guh"), (r"\bEckstine\b", "Eck-stine"), (r"\bFatha\b", "Fah-thuh"), (r"\bKraemer\b", "Kray-mer"), (r"\bGlaser\b", "Glay-zer"), (r"\bBeiderbecke\b", "By-der-beck"), (r"\bGunsaulus\b", "Gun-saw-lus"), (r"\bKehilath\b", "Keh-hee-laht"), (r"\bAnshe\b", "Ahn-sheh"), (r"\bMa'ariv\b", "Mah-ah-reev"), (r"\bEdbrooke\b", "Ed-brook"),
     (r"\bSzilard\b", "Sill-ard"), (r"\bPinochet\b", "Pee-no-chet"), (r"\bAllende\b", "Ah-yen-day"), (r"\bWasmuth\b", "Vahss-moot"), (r"\bLatke\b", "Lot-kuh"), (r"\blatke\b", "lot-kuh"), (r"\bHamantash\b", "Hah-mun-tahsh"), (r"\bhamantash\b", "hah-mun-tahsh"), (r"\bWallach\b", "Wall-ock"), (r"\bPei\b", "Pay"), (r"\bWeil\b", "Wile"), (r"\bBoas\b", "Boe-az"), (r"\bDe Stijl\b", "Duh Stile"), (r"\bPeleliu\b", "Pel-eh-loo"), (r"\bChianti\b", "Kee-ahn-tee"), (r"\bPurim\b", "Poor-im"),
     (r"\bCarwardine\b", "Car-wuh-deen"), (r"\bBeman\b", "Bee-mun"), (r"\bWagner\b", "Wag-ner"), (r"\bSteere\b", "Steer"), (r"\bDulany\b", "Dew-lay-nee"), (r"\bClemenceau\b", "Clem-un-so"), (r"\bEly\b", "Ee-lee"), (r"\bGrosscup\b", "Gross-cup"),
+    (r"\bCappiani\b", "Cap-ee-ah-nee"), (r"\bHiroshige\b", "Hee-roh-shee-gay"), (r"\bBrodelle\b", "Bro-dell"), (r"\bTallmadge\b", "Tal-midge"), (r"\bChapin\b", "Chay-pin"), (r"\bMarcelline\b", "Mar-suh-leen"), (r"\bHarboe\b", "Har-bo"), (r"\bTan-y-deri\b", "Tan-uh-derry"), (r"\bEllen Key\b", "Ellen Kay"),
 ]
 
 def to_speech(t):
