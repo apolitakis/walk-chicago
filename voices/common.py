@@ -50,6 +50,7 @@ SPEAK_FIX = [
     (r"\bVeeck\b", "Veck"), (r"\bSioux\b", "Soo"), (r"\bBougainville\b", "Boo-gun-vil"), (r"\bGaedel\b", "Gay-dell"), (r"\bDraugas\b", "Drow-gus"), (r"\bLituanica\b", "Lit-oo-ah-nik-uh"), (r"\bKaunas\b", "Kow-nus"), (r"\bSteponas\b", "Steh-poh-nus"), (r"\bStasys\b", "Stah-sees"), (r"\bGirėnas\b", "Gih-ray-nus"), (r"\bChanute\b", "Shuh-noot"), (r"\bSheil\b", "Sheel"),
     (r"\bMahalia\b", "Muh-hail-yuh"), (r"\bAlschuler\b", "Al-shoo-ler"), (r"\bPisgah\b", "Piz-guh"), (r"\bEckstine\b", "Eck-stine"), (r"\bFatha\b", "Fah-thuh"), (r"\bKraemer\b", "Kray-mer"), (r"\bGlaser\b", "Glay-zer"), (r"\bBeiderbecke\b", "By-der-beck"), (r"\bGunsaulus\b", "Gun-saw-lus"), (r"\bKehilath\b", "Keh-hee-laht"), (r"\bAnshe\b", "Ahn-sheh"), (r"\bMa'ariv\b", "Mah-ah-reev"), (r"\bEdbrooke\b", "Ed-brook"),
     (r"\bSzilard\b", "Sill-ard"), (r"\bPinochet\b", "Pee-no-chet"), (r"\bAllende\b", "Ah-yen-day"), (r"\bWasmuth\b", "Vahss-moot"), (r"\bLatke\b", "Lot-kuh"), (r"\blatke\b", "lot-kuh"), (r"\bHamantash\b", "Hah-mun-tahsh"), (r"\bhamantash\b", "hah-mun-tahsh"), (r"\bWallach\b", "Wall-ock"), (r"\bPei\b", "Pay"), (r"\bWeil\b", "Wile"), (r"\bBoas\b", "Boe-az"), (r"\bDe Stijl\b", "Duh Stile"), (r"\bPeleliu\b", "Pel-eh-loo"), (r"\bChianti\b", "Kee-ahn-tee"), (r"\bPurim\b", "Poor-im"),
+    (r"\bCarwardine\b", "Car-wuh-deen"), (r"\bBeman\b", "Bee-mun"), (r"\bWagner\b", "Wag-ner"), (r"\bSteere\b", "Steer"), (r"\bDulany\b", "Dew-lay-nee"), (r"\bClemenceau\b", "Clem-un-so"), (r"\bEly\b", "Ee-lee"), (r"\bGrosscup\b", "Gross-cup"),
 ]
 
 def to_speech(t):
